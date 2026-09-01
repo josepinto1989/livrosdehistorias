@@ -1,0 +1,20 @@
+{
+  "collectionTitle": "As Histórias do Guilherme e do Xavier",
+  "collectionSubtitle": "Histórias inventadas em família",
+  "books": [
+    {
+      "id": "cao-joaquim-submarino",
+      "title": "O Cão Joaquim e o Submarino Arco-Íris",
+      "subtitle": "Uma aventura no fundo do mar",
+      "cover": "books/cao-joaquim-submarino/images/cover.png",
+      "status": "available",
+      "href": "reader.html?book=cao-joaquim-submarino"
+    },
+    {
+      "id": "proxima-historia",
+      "title": "A próxima história",
+      "subtitle": "Já está gravada e será o próximo livro da coleção",
+      "status": "soon"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e8ebec">
+  <title>Livro — As Histórias do Guilherme e do Xavier</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="reader-body">
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="home-link" href="index.html" aria-label="Voltar à biblioteca">← Biblioteca</a>
+      <p class="site-title" id="siteTitle">A carregar…</p>
+      <p class="site-collection">Guilherme &amp; Xavier</p>
+    </header>
+
+    <main class="reader">
+      <section class="stage" id="stage" aria-label="Leitor do livro">
+        <div class="book single" id="book" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <nav class="reader-controls" aria-label="Navegação do livro">
+      <button class="nav-button" id="previous" type="button" aria-label="Página anterior" title="Página anterior">←</button>
+      <div class="reader-position">
+        <output id="position" aria-live="polite">1 / 1</output>
+        <div class="progress-track" aria-hidden="true"><span id="progress"></span></div>
+      </div>
+      <button class="nav-button" id="next" type="button" aria-label="Página seguinte" title="Página seguinte">→</button>
+    </nav>
+  </div>
+
+  <noscript><div class="noscript">É necessário ativar JavaScript para folhear este livro.</div></noscript>
+  <script src="assets/js/reader.js"></script>
+</body>
+</html>

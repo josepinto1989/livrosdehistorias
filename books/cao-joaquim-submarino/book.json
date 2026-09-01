@@ -1,0 +1,182 @@
+{
+  "id": "cao-joaquim-submarino",
+  "collectionTitle": "As Histórias do Guilherme e do Xavier",
+  "title": "O Cão Joaquim e o Submarino Arco-Íris",
+  "subtitle": "Uma história inventada pelo pai e pelo Guilherme",
+  "themeColor": "#143d59",
+  "pages": [
+    {
+      "type": "cover",
+      "image": "images/cover.png",
+      "alt": "Capa de O Cão Joaquim e o Submarino Arco-Íris"
+    },
+    {
+      "type": "text",
+      "heading": "Uma ideia um bocadinho totó",
+      "text": [
+        "Era uma vez um cão chamado Joaquim.",
+        "O Cão Joaquim era curioso, aventureiro e tinha sempre ideias um bocadinho… totós.",
+        "Certa manhã, enquanto olhava para o mar, teve uma ideia extraordinária:",
+        "— Hoje vou passear até ao fundo do mar!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/01-joaquim-alberto.png",
+      "alt": "O Cão Joaquim vai chamar o Gato Alberto junto ao mar"
+    },
+    {
+      "type": "text",
+      "heading": "Gato Albertooooo!",
+      "text": [
+        "O Cão Joaquim não queria fazer uma aventura tão grande sozinho.",
+        "Por isso, correu até à casa do seu melhor amigo e chamou:",
+        "— Gato Albertooooo!",
+        "Pouco depois apareceu o Gato Alberto, ainda despenteado e com uma meia presa na cauda.",
+        "— Vamos passear até ao fundo do mar! — anunciou Joaquim.",
+        "— Até ao fundo do mar?! E vamos como? De barco?",
+        "— Não. Vamos de submarino!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/02-gilberto-praia.png",
+      "alt": "O Papagaio Gilberto junta-se ao Cão Joaquim e ao Gato Alberto na praia"
+    },
+    {
+      "type": "text",
+      "heading": "Papagaio Gilbertooooo!",
+      "text": [
+        "Os dois encheram os pulmões:",
+        "— PAPAGAIO GILBERTOOOOO!",
+        "Frapa-fra-fra-fra!",
+        "O Papagaio Gilberto apareceu a voar.",
+        "— Uma aventura no fundo do mar? Claro que vou!",
+        "— Mas espero que o Joaquim não conduza.",
+        "— Eu sei conduzir um submarino… mais ou menos.",
+        "O Gato Alberto e o Papagaio Gilberto olharam um para o outro.",
+        "— MAIS OU MENOS?!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/03-mergulho.png",
+      "alt": "Os três amigos mergulham no submarino arco-íris"
+    },
+    {
+      "type": "text",
+      "heading": "Blup, blup, blup…",
+      "text": [
+        "Atrás de uma grande rocha encontraram um submarino arco-íris.",
+        "Tinha uma janela redonda, uma hélice brilhante e botões de todas as cores.",
+        "— Preparados?",
+        "— Preparados!",
+        "O submarino começou a mergulhar.",
+        "Blup, blup, blup, blup…",
+        "Passaram por peixes prateados, algas dançarinas e bolhas de todos os tamanhos."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/04-baleia.png",
+      "alt": "O submarino encontra uma enorme baleia azul"
+    },
+    {
+      "type": "sound",
+      "sound": "PUM!",
+      "text": [
+        "O Cão Joaquim estava tão distraído a olhar para os peixes que não viu uma enorme sombra à sua frente.",
+        "— Joaquim… tu estás a olhar para onde vais?",
+        "— Mais ou menos.",
+        "— JOAQUIM!",
+        "Da escuridão apareceu uma baleia-azul gigantesca.",
+        "— QUEM É QUE ME DEU UM MURRO?",
+        "— Desculpe lá — disse Joaquim. — Eu ainda estou a aprender a conduzir."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/05-raia.png",
+      "alt": "A Raia Batata ajuda os amigos no fundo do mar"
+    },
+    {
+      "type": "text",
+      "heading": "Raia Batataaaaa!",
+      "text": [
+        "A Baleia Azul acabou por perdoá-los e indicou o caminho.",
+        "Pouco depois, viram uma forma achatada a deslizar sobre a areia.",
+        "— RAIA BATATAAAAA!",
+        "— Olá, meninos! O que fazem aqui ao pé da minha casa?",
+        "— Procuramos a Tartaruga Joana.",
+        "Nesse instante, o estômago do Gato Alberto fez:",
+        "GRRRRRRR!",
+        "— E temos muita fome!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/06-festa.png",
+      "alt": "Os amigos comem bolo de amêijoas em casa da Tartaruga Joana"
+    },
+    {
+      "type": "text",
+      "heading": "Bolo de amêijoas",
+      "text": [
+        "A Tartaruga Joana esperava-os com a mesa cheia.",
+        "Havia bolo de amêijoas, gomas de mexilhão, chupa-chupas de lesma-do-mar e sumo de algas.",
+        "— Eca! — disse o Gato Alberto.",
+        "— Eca! — repetiu o Papagaio Gilberto.",
+        "O Cão Joaquim provou uma fatia.",
+        "Mastigou devagar.",
+        "— É delicioso!",
+        "E todos começaram a comer."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/07-peixe-dourado.png",
+      "alt": "Um pequeno peixe dourado passa muito depressa diante dos amigos"
+    },
+    {
+      "type": "sound",
+      "sound": "FUUUUUSH!",
+      "text": [
+        "Alguma coisa passou muito depressa do lado de fora.",
+        "FUUUUUSH!",
+        "— Será um tubarão? — sussurrou Joaquim.",
+        "Todos se aproximaram da janela.",
+        "E então descobriram o terrível monstro…",
+        "Era um pequenino peixe dourado.",
+        "— Olá! Estou a treinar para a corrida do fundo do mar!",
+        "Os amigos riram tanto que o Gato Alberto caiu de costas."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/08-regresso.png",
+      "alt": "Os três amigos regressam à praia ao pôr do sol"
+    },
+    {
+      "type": "text",
+      "heading": "O caminho para casa",
+      "text": [
+        "Começava a ficar de noite e estava na hora de regressar.",
+        "No caminho, um peixe-palhaço deu-lhes indicações tão confusas que ninguém percebeu nada.",
+        "Mesmo assim, seguiram em frente, viraram à esquerda, depois à direita… e finalmente encontraram a praia.",
+        "— Conseguimos! — gritaram os três."
+      ]
+    },
+    {
+      "type": "ending",
+      "heading": "Boa noite, Cão Joaquim",
+      "text": [
+        "Já deitado na sua cama, o Cão Joaquim pensou na Baleia Azul, na Raia Batata, na Tartaruga Joana e no pequeno peixe dourado.",
+        "Tinha sido uma aventura incrível.",
+        "Antes de fechar os olhos, sorriu e pensou:",
+        "— Amanhã vou inventar outra.",
+        "E adormeceu a sonhar com o submarino arco-íris."
+      ],
+      "end": "Fim."
+    }
+  ]
+}
