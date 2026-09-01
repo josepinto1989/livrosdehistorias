@@ -29,13 +29,14 @@ async function loadLibrary() {
 
       const info = document.createElement("div");
       info.className = "card-info";
-      const title = document.createElement("h2");
+      const title = document.createElement("h3");
       title.textContent = book.title;
       const subtitle = document.createElement("p");
       subtitle.textContent = book.subtitle;
       const tag = document.createElement("span");
       tag.className = "card-tag";
-      tag.textContent = available ? "Ler história" : "Em breve";
+      tag.textContent = available ? "Ler aventura" : "Em breve";
+
       info.append(title, subtitle, tag);
       card.append(cover, info);
       grid.appendChild(card);

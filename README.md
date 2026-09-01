@@ -1,4 +1,5 @@
-# As Histórias do Guilherme e do Xavier
+# As Aventuras do Cão Joaquim e amigos
+
 
 Site estático para GitHub Pages com uma pequena biblioteca de livros infantis.
 
@@ -54,3 +55,6 @@ Mesmo com um repositório privado, tudo o que é apresentado num website
 público pode ser tecnicamente descarregado ou capturado. A licença estabelece
 que a mera possibilidade técnica de acesso não constitui autorização para
 reutilização.
+
+
+Criado por Miguel Pinto para o Guilherme e Xavier. Para que as aventuras estejam sempre com eles.
