@@ -17,7 +17,8 @@
         "Era uma vez um cão chamado Joaquim.",
         "O Cão Joaquim era curioso, aventureiro e tinha sempre ideias um bocadinho… totós.",
         "Certa manhã, enquanto olhava para o mar, teve uma ideia extraordinária:",
-        "— Hoje vou passear até ao fundo do mar!"
+        "— Hoje vou passear até ao fundo do mar!",
+        "Mas uma aventura tão grande não podia ser feita sozinho."
       ]
     },
     {
@@ -27,15 +28,14 @@
     },
     {
       "type": "text",
-      "heading": "Gato Albertooooo!",
+      "heading": "Gato Alberto e Papagaio Gilbertooooo!",
       "text": [
-        "O Cão Joaquim não queria fazer uma aventura tão grande sozinho.",
-        "Por isso, correu até à casa do seu melhor amigo e chamou:",
+        "O Cão Joaquim correu até à casa do seu melhor amigo e chamou:",
         "— Gato Albertooooo!",
         "Pouco depois apareceu o Gato Alberto, ainda despenteado e com uma meia presa na cauda.",
         "— Vamos passear até ao fundo do mar! — anunciou Joaquim.",
-        "— Até ao fundo do mar?! E vamos como? De barco?",
-        "— Não. Vamos de submarino!"
+        "Os dois encheram os pulmões e gritaram:",
+        "— PAPAGAIO GILBERTOOOOO!"
       ]
     },
     {
@@ -45,40 +45,20 @@
     },
     {
       "type": "text",
-      "heading": "Papagaio Gilbertooooo!",
+      "heading": "Blup, blup, blup…",
       "text": [
-        "Os dois encheram os pulmões:",
-        "— PAPAGAIO GILBERTOOOOO!",
-        "Frapa-fra-fra-fra!",
-        "O Papagaio Gilberto apareceu a voar.",
         "Atrás de uma grande rocha estava escondido um submarino arco-íris.",
-        "— Uma aventura no fundo do mar? Claro que vou!",
+        "— Uma aventura no fundo do mar? Claro que vou! — disse o Papagaio Gilberto.",
         "— Mas espero que o Joaquim não conduza.",
         "— Eu sei conduzir um submarino… mais ou menos.",
-        "— MAIS OU MENOS?!"
+        "Os três amigos entraram e começaram a mergulhar.",
+        "Blup, blup, blup, blup…"
       ]
     },
     {
       "type": "image",
       "image": "images/03-mergulho.png",
       "alt": "Os três amigos mergulham no submarino arco-íris"
-    },
-    {
-      "type": "text",
-      "heading": "Blup, blup, blup…",
-      "text": [
-        "Os três amigos entraram no submarino e sentaram-se nos seus lugares.",
-        "— Preparados?",
-        "— Preparados!",
-        "O submarino começou a mergulhar.",
-        "Blup, blup, blup, blup…",
-        "Passaram por peixes prateados, algas dançarinas e bolhas de todos os tamanhos."
-      ]
-    },
-    {
-      "type": "image",
-      "image": "images/04-baleia-choque.png",
-      "alt": "O submarino bate sem querer na Baleia Azul"
     },
     {
       "type": "sound",
@@ -89,14 +69,13 @@
         "— Mais ou menos.",
         "— JOAQUIM!",
         "Da escuridão apareceu uma baleia-azul gigantesca.",
-        "— QUEM É QUE ME DEU UM MURRO?",
-        "Os três amigos ficaram tão assustados que quase bateram com a cabeça no vidro."
+        "— QUEM É QUE ME DEU UM MURRO?"
       ]
     },
     {
       "type": "image",
-      "image": "images/05-baleia-amiga.png",
-      "alt": "A Baleia Azul fala com os três amigos e mostra-lhes o caminho"
+      "image": "images/04-baleia-choque.png",
+      "alt": "O submarino bate sem querer na Baleia Azul"
     },
     {
       "type": "text",
@@ -111,8 +90,8 @@
     },
     {
       "type": "image",
-      "image": "images/06-raia-e-joana.png",
-      "alt": "A Raia Batata e a Tartaruga Joana recebem os amigos perto de uma casinha no fundo do mar"
+      "image": "images/05-baleia-amiga.png",
+      "alt": "A Baleia Azul fala com os três amigos e mostra-lhes o caminho"
     },
     {
       "type": "text",
@@ -129,8 +108,8 @@
     },
     {
       "type": "image",
-      "image": "images/07-festa.png",
-      "alt": "Os amigos comem juntos em casa da Tartaruga Joana"
+      "image": "images/06-raia-e-joana.png",
+      "alt": "A Raia Batata e a Tartaruga Joana recebem os amigos perto de uma casinha no fundo do mar"
     },
     {
       "type": "text",
@@ -147,8 +126,8 @@
     },
     {
       "type": "image",
-      "image": "images/08-peixe-dourado.png",
-      "alt": "Um pequeno peixe dourado passa a grande velocidade diante dos amigos"
+      "image": "images/07-festa.png",
+      "alt": "Os amigos comem juntos em casa da Tartaruga Joana"
     },
     {
       "type": "sound",
@@ -160,9 +139,13 @@
         "Todos se aproximaram da janela.",
         "E então descobriram o terrível monstro…",
         "Era um pequenino peixe dourado.",
-        "— Olá! Estou a treinar para a corrida do fundo do mar!",
-        "Os amigos riram tanto que o Gato Alberto caiu de costas."
+        "— Olá! Estou a treinar para a corrida do fundo do mar!"
       ]
+    },
+    {
+      "type": "image",
+      "image": "images/08-peixe-dourado.png",
+      "alt": "Um pequeno peixe dourado passa a grande velocidade diante dos amigos"
     },
     {
       "type": "text",
@@ -176,8 +159,8 @@
     },
     {
       "type": "image",
-      "image": "images/09-sonho.png",
-      "alt": "O Cão Joaquim e o Gato Alberto dormem enquanto sonham com o submarino arco-íris"
+      "image": "images/08-regresso.png",
+      "alt": "Os amigos regressam contentes depois da aventura no fundo do mar"
     },
     {
       "type": "ending",
