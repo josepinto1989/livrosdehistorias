@@ -1,6 +1,6 @@
 {
-  "collectionTitle": "As Histórias do Guilherme e do Xavier",
-  "collectionSubtitle": "Histórias inventadas em família",
+  "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
+  "collectionSubtitle": "Entra nas aventuras do Cão Joaquim e dos seus amigos, cheias de imaginação, gargalhadas e descobertas.",
   "books": [
     {
       "id": "cao-joaquim-submarino",
@@ -8,12 +8,13 @@
       "subtitle": "Uma aventura no fundo do mar",
       "cover": "books/cao-joaquim-submarino/images/cover.png",
       "status": "available",
-      "href": "reader.html?book=cao-joaquim-submarino"
+      "href": "reader.html?book=cao-joaquim-submarino",
+      "featured": true
     },
     {
-      "id": "proxima-historia",
-      "title": "A próxima história",
-      "subtitle": "Já está gravada e será o próximo livro da coleção",
+      "id": "proxima-aventura",
+      "title": "Próxima aventura",
+      "subtitle": "Uma nova história do Cão Joaquim está a caminho.",
       "status": "soon"
     }
   ]
