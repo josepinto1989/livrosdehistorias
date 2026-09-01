@@ -164,3 +164,7 @@ a.library-card:hover { transform: translateY(-4px); box-shadow: 0 22px 48px rgba
   .progress-track span { transition: none; }
   .library-card { transition: none; }
 }
+
+.library-footer a { color: inherit; text-underline-offset: 3px; }
+.rights-link { text-decoration: none; }
+.rights-link:hover { text-decoration: underline; text-underline-offset: 3px; }

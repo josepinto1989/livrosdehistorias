@@ -30,3 +30,27 @@ O leitor é responsivo:
 - desktop/tablet horizontal: capa individual + páginas duplas;
 - telemóvel vertical: uma página de cada vez;
 - setas, teclado, clique nas metades do ecrã e swipe.
+
+
+## Direitos de autor
+
+Copyright © 2026 Miguel Pinto. Todos os direitos reservados.
+
+Este projeto **não é open source**. A disponibilização do código e do website
+serve apenas para consulta. Não é concedida autorização para copiar,
+redistribuir, republicar, adaptar, vender, licenciar ou explorar o conteúdo.
+
+Consultar o ficheiro [`LICENSE`](LICENSE) para os termos completos.
+
+
+### Recomendação de publicação
+
+Para preservar melhor estes direitos, recomenda-se manter o **repositório
+GitHub privado** e publicar apenas o site resultante. Um repositório público
+no GitHub pode ser visualizado e bifurcado ("fork") por outros utilizadores
+nos termos da própria plataforma.
+
+Mesmo com um repositório privado, tudo o que é apresentado num website
+público pode ser tecnicamente descarregado ou capturado. A licença estabelece
+que a mera possibilidade técnica de acesso não constitui autorização para
+reutilização.
