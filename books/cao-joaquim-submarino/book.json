@@ -1,9 +1,9 @@
 {
   "id": "cao-joaquim-submarino",
-  "collectionTitle": "As Histórias do Guilherme e do Xavier",
+  "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
   "title": "O Cão Joaquim e o Submarino Arco-Íris",
-  "subtitle": "Uma história inventada pelo pai e pelo Guilherme",
-  "themeColor": "#143d59",
+  "subtitle": "Uma aventura no fundo do mar",
+  "themeColor": "#1c6ea3",
   "pages": [
     {
       "type": "cover",
@@ -23,7 +23,7 @@
     {
       "type": "image",
       "image": "images/01-joaquim-alberto.png",
-      "alt": "O Cão Joaquim vai chamar o Gato Alberto junto ao mar"
+      "alt": "O Cão Joaquim vai chamar o Gato Alberto à casa dele junto ao mar"
     },
     {
       "type": "text",
@@ -41,7 +41,7 @@
     {
       "type": "image",
       "image": "images/02-gilberto-praia.png",
-      "alt": "O Papagaio Gilberto junta-se ao Cão Joaquim e ao Gato Alberto na praia"
+      "alt": "O Papagaio Gilberto junta-se ao Cão Joaquim e ao Gato Alberto na praia junto do submarino arco-íris"
     },
     {
       "type": "text",
@@ -51,10 +51,10 @@
         "— PAPAGAIO GILBERTOOOOO!",
         "Frapa-fra-fra-fra!",
         "O Papagaio Gilberto apareceu a voar.",
+        "Atrás de uma grande rocha estava escondido um submarino arco-íris.",
         "— Uma aventura no fundo do mar? Claro que vou!",
         "— Mas espero que o Joaquim não conduza.",
         "— Eu sei conduzir um submarino… mais ou menos.",
-        "O Gato Alberto e o Papagaio Gilberto olharam um para o outro.",
         "— MAIS OU MENOS?!"
       ]
     },
@@ -67,8 +67,7 @@
       "type": "text",
       "heading": "Blup, blup, blup…",
       "text": [
-        "Atrás de uma grande rocha encontraram um submarino arco-íris.",
-        "Tinha uma janela redonda, uma hélice brilhante e botões de todas as cores.",
+        "Os três amigos entraram no submarino e sentaram-se nos seus lugares.",
         "— Preparados?",
         "— Preparados!",
         "O submarino começou a mergulhar.",
@@ -78,8 +77,8 @@
     },
     {
       "type": "image",
-      "image": "images/04-baleia.png",
-      "alt": "O submarino encontra uma enorme baleia azul"
+      "image": "images/04-baleia-choque.png",
+      "alt": "O submarino bate sem querer na Baleia Azul"
     },
     {
       "type": "sound",
@@ -91,32 +90,47 @@
         "— JOAQUIM!",
         "Da escuridão apareceu uma baleia-azul gigantesca.",
         "— QUEM É QUE ME DEU UM MURRO?",
-        "— Desculpe lá — disse Joaquim. — Eu ainda estou a aprender a conduzir."
+        "Os três amigos ficaram tão assustados que quase bateram com a cabeça no vidro."
       ]
     },
     {
       "type": "image",
-      "image": "images/05-raia.png",
-      "alt": "A Raia Batata ajuda os amigos no fundo do mar"
+      "image": "images/05-baleia-amiga.png",
+      "alt": "A Baleia Azul fala com os três amigos e mostra-lhes o caminho"
+    },
+    {
+      "type": "text",
+      "heading": "A Baleia Azul",
+      "text": [
+        "— Desculpe lá — disse Joaquim. — Eu ainda estou a aprender a conduzir.",
+        "A Baleia Azul tentou manter-se séria, mas acabou por sorrir.",
+        "— Está bem, eu desculpo-vos. Afinal, o que procuram?",
+        "— Procuramos as nossas amigas: a Raia Batata e a Tartaruga Joana.",
+        "— Então sigam em frente, virem à direita, depois à esquerda e continuem até à grande rocha."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/06-raia-e-joana.png",
+      "alt": "A Raia Batata e a Tartaruga Joana recebem os amigos perto de uma casinha no fundo do mar"
     },
     {
       "type": "text",
       "heading": "Raia Batataaaaa!",
       "text": [
-        "A Baleia Azul acabou por perdoá-los e indicou o caminho.",
         "Pouco depois, viram uma forma achatada a deslizar sobre a areia.",
         "— RAIA BATATAAAAA!",
         "— Olá, meninos! O que fazem aqui ao pé da minha casa?",
-        "— Procuramos a Tartaruga Joana.",
+        "A Tartaruga Joana apareceu logo ali ao lado, à porta da sua casinha.",
         "Nesse instante, o estômago do Gato Alberto fez:",
         "GRRRRRRR!",
-        "— E temos muita fome!"
+        "— E temos muita fome! — confessou ele."
       ]
     },
     {
       "type": "image",
-      "image": "images/06-festa.png",
-      "alt": "Os amigos comem bolo de amêijoas em casa da Tartaruga Joana"
+      "image": "images/07-festa.png",
+      "alt": "Os amigos comem juntos em casa da Tartaruga Joana"
     },
     {
       "type": "text",
@@ -126,16 +140,15 @@
         "Havia bolo de amêijoas, gomas de mexilhão, chupa-chupas de lesma-do-mar e sumo de algas.",
         "— Eca! — disse o Gato Alberto.",
         "— Eca! — repetiu o Papagaio Gilberto.",
-        "O Cão Joaquim provou uma fatia.",
-        "Mastigou devagar.",
+        "O Cão Joaquim provou uma fatia, mastigou devagar e sorriu.",
         "— É delicioso!",
         "E todos começaram a comer."
       ]
     },
     {
       "type": "image",
-      "image": "images/07-peixe-dourado.png",
-      "alt": "Um pequeno peixe dourado passa muito depressa diante dos amigos"
+      "image": "images/08-peixe-dourado.png",
+      "alt": "Um pequeno peixe dourado passa a grande velocidade diante dos amigos"
     },
     {
       "type": "sound",
@@ -152,11 +165,6 @@
       ]
     },
     {
-      "type": "image",
-      "image": "images/08-regresso.png",
-      "alt": "Os três amigos regressam à praia ao pôr do sol"
-    },
-    {
       "type": "text",
       "heading": "O caminho para casa",
       "text": [
@@ -165,6 +173,11 @@
         "Mesmo assim, seguiram em frente, viraram à esquerda, depois à direita… e finalmente encontraram a praia.",
         "— Conseguimos! — gritaram os três."
       ]
+    },
+    {
+      "type": "image",
+      "image": "images/09-sonho.png",
+      "alt": "O Cão Joaquim e o Gato Alberto dormem enquanto sonham com o submarino arco-íris"
     },
     {
       "type": "ending",
