@@ -20,8 +20,10 @@
         "Era uma vez um cão chamado Joaquim.",
         "Certo dia, acordou com vontade de conhecer um lugar cheio de areia, sol e mistérios.",
         "— Hoje vou ao deserto!",
-        "Mas uma aventura tão grande não podia ser feita sozinho.",
-        "Por isso, correu até à casa do seu melhor amigo."
+        "Mas uma aventura tão grande não podia ser feita sozinho. Por isso, correu até à casa do seu melhor amigo e bateu à porta.",
+        "TRUZ, TRUZ! Ninguém respondeu.",
+        "— GATO ALBERTOOOOO!",
+        "A porta abriu-se devagar e apareceu Alberto, ainda cheio de sono."
       ]
     },
     {
@@ -31,14 +33,14 @@
     },
     {
       "type": "sound",
-      "sound": "TRUZ, TRUZ!",
+      "sound": "GILBERTO!",
       "text": [
-        "Joaquim bateu à porta.",
-        "Ninguém respondeu.",
-        "Bateu outra vez, agora com mais força.",
-        "— GATO ALBERTOOOOO!",
-        "A porta abriu-se devagar e apareceu Alberto, ainda cheio de sono.",
-        "— Queres vir comigo ao deserto?"
+        "— Queres vir comigo ao deserto? — perguntou Joaquim.",
+        "Alberto pensou um bocadinho e levantou uma pata.",
+        "— Quero, mas ainda falta alguém.",
+        "Os dois encheram os pulmões e gritaram:",
+        "— PAPAGAIO GILBERTOOOOO!",
+        "Gilberto desceu do céu num instante, pronto para a aventura."
       ]
     },
     {
@@ -48,14 +50,14 @@
     },
     {
       "type": "text",
-      "heading": "Ainda falta alguém",
+      "heading": "Areia quente!",
       "text": [
-        "Alberto pensou um bocadinho e levantou uma pata.",
-        "— Espera! Ainda falta alguém.",
-        "Os dois encheram os pulmões e gritaram:",
-        "— PAPAGAIO GILBERTOOOOO!",
-        "Gilberto desceu do céu num instante.",
-        "E lá foram os três amigos a caminho do deserto."
+        "E lá foram os três amigos a caminho do deserto.",
+        "Quando chegaram, viram dunas para todos os lados e o sol a brilhar lá no alto.",
+        "O Gato Alberto pôs uma pata na areia e começou logo a saltar.",
+        "— Ai! Areia quente! Areia quente!",
+        "O Papagaio Gilberto bateu as asas e riu-se:",
+        "— Ainda bem que eu sei voar!"
       ]
     },
     {
@@ -64,14 +66,14 @@
       "alt": "Os três amigos atravessam o deserto e o Gato Alberto salta por causa da areia quente"
     },
     {
-      "type": "sound",
-      "sound": "AI! AI! AI!",
+      "type": "text",
+      "heading": "A pedra preta",
       "text": [
-        "O deserto era enorme. Havia dunas para todos os lados e o sol brilhava lá no alto.",
-        "O Gato Alberto pôs uma pata na areia e começou logo a saltar.",
-        "— Areia quente! Areia quente!",
-        "O Papagaio Gilberto bateu as asas e riu-se:",
-        "— Ainda bem que eu sei voar!"
+        "Depois de atravessarem muitas dunas, encontraram uma pedra preta, grande e brilhante.",
+        "— O que estará ali por baixo? — perguntou Joaquim.",
+        "Os amigos aproximaram-se e espreitaram com muito cuidado.",
+        "De repente, apareceu um enorme escorpião.",
+        "— Quem entrou na minha casa?"
       ]
     },
     {
@@ -81,13 +83,14 @@
     },
     {
       "type": "text",
-      "heading": "A pedra preta",
+      "heading": "Pico, pico, pico!",
       "text": [
-        "Mais adiante encontraram uma pedra preta, grande e brilhante.",
-        "— O que estará ali por baixo? — perguntou Joaquim.",
-        "Os amigos espreitaram e, de repente, apareceu um enorme escorpião.",
-        "— Quem entrou na minha casa?",
-        "O escorpião ergueu o ferrão e avançou muito zangado."
+        "O escorpião ergueu o ferrão e avançou muito zangado.",
+        "— Vou picar-vos! Pico, pico, pico!",
+        "Alberto escondeu-se atrás de Joaquim. Gilberto voou um pouco mais alto.",
+        "Mas o Cão Joaquim respirou fundo e pediu desculpa:",
+        "— Não queríamos incomodá-lo. Só viemos conhecer o deserto.",
+        "O escorpião baixou devagar o ferrão."
       ]
     },
     {
@@ -96,24 +99,8 @@
       "alt": "O escorpião levanta o ferrão enquanto Joaquim tenta acalmá-lo"
     },
     {
-      "type": "sound",
-      "sound": "PICO, PICO!",
-      "text": [
-        "— Vou picar-vos! Pico, pico, pico!",
-        "Alberto escondeu-se atrás de Joaquim. Gilberto voou um pouco mais alto.",
-        "Mas o Cão Joaquim respirou fundo e disse:",
-        "— Desculpe, senhor Escorpião. Não queríamos incomodá-lo. Só viemos conhecer o deserto.",
-        "O escorpião baixou devagar o ferrão."
-      ]
-    },
-    {
-      "type": "image",
-      "image": "images/06-indicacoes.webp",
-      "alt": "O escorpião dá indicações muito confusas aos três amigos"
-    },
-    {
       "type": "text",
-      "heading": "O caminho para o oásis",
+      "heading": "Um caminho muito confuso",
       "text": [
         "— Nesse caso, deviam visitar o oásis — disse o escorpião.",
         "— O que é um oásis? — perguntou Alberto.",
@@ -124,8 +111,8 @@
     },
     {
       "type": "image",
-      "image": "images/07-perdidos.webp",
-      "alt": "Joaquim, Alberto e Gilberto procuram o caminho entre muitas dunas"
+      "image": "images/06-indicacoes.webp",
+      "alt": "O escorpião dá indicações muito confusas aos três amigos"
     },
     {
       "type": "text",
@@ -134,8 +121,24 @@
         "Os três amigos agradeceram e seguiram caminho.",
         "Foram em frente, viraram à esquerda, depois à direita… ou seria outra vez à esquerda?",
         "Passaram uma duna. Depois outra. E mais outra.",
-        "Quando já estavam quase a desistir, Gilberto viu palmeiras ao longe.",
+        "Quando já estavam quase a desistir, Gilberto viu palmeiras e água ao longe.",
         "— É ali! Encontrámos o oásis!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/07-perdidos.webp",
+      "alt": "Joaquim, Alberto e Gilberto procuram o caminho entre muitas dunas"
+    },
+    {
+      "type": "text",
+      "heading": "Encontrámos o oásis!",
+      "text": [
+        "No oásis havia água fresca, palmeiras e uma sombra deliciosa.",
+        "Joaquim correu para a água e começou logo a chapinhar.",
+        "Alberto saltou de uma pedra e Gilberto fez chover gotas com as asas.",
+        "Os três amigos brincaram até o céu ficar cor de laranja.",
+        "— Acho que está na hora de irmos para casa — disse Joaquim."
       ]
     },
     {
@@ -145,13 +148,13 @@
     },
     {
       "type": "ending",
-      "heading": "Até aparecer a noite",
+      "heading": "Boa noite, Cão Joaquim",
       "text": [
-        "No oásis havia água fresca, palmeiras e uma sombra deliciosa.",
-        "Joaquim, Alberto e Gilberto brincaram, correram e chapinharam até o céu ficar cor de laranja.",
-        "— Acho que está na hora de irmos para casa — disse Joaquim.",
-        "Quando chegou à sua cama, lembrou-se da areia quente, do escorpião e das indicações mais confusas do mundo.",
-        "Tinha sido mais uma aventura inesquecível. Mas agora estava na hora de dormir."
+        "Quando chegou a casa, o Cão Joaquim foi direitinho para a cama.",
+        "Lembrou-se da areia quente, do escorpião e das indicações mais confusas do mundo.",
+        "Também se lembrou das gargalhadas com Alberto e Gilberto no oásis.",
+        "Tinha sido mais uma aventura inesquecível.",
+        "Mas agora estava na hora de dormir."
       ],
       "end": "Fim."
     },
