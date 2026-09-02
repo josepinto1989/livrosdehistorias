@@ -1,5 +1,6 @@
 
 const params = new URLSearchParams(window.location.search);
+const assetVersion = "20260902-2";
 const requestedBookId = params.get("book") || "cao-joaquim-submarino";
 const bookId = /^[a-z0-9-]+$/.test(requestedBookId) ? requestedBookId : "cao-joaquim-submarino";
 
@@ -192,7 +193,7 @@ mobileQuery.addEventListener("change", () => {
 
 async function init() {
   try {
-    const response = await fetch(`books/${bookId}/book.json`);
+    const response = await fetch(`books/${bookId}/book.json?v=${assetVersion}`);
     if (!response.ok) throw new Error("Livro não encontrado.");
     bookData = await response.json();
     pages = bookData.pages;
