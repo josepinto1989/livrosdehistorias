@@ -3,11 +3,14 @@
   "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
   "title": "O Cão Joaquim e o Submarino Arco-Íris",
   "subtitle": "Uma aventura no fundo do mar",
+  "coverTitle": "O Cão Joaquim",
+  "coverSubtitle": "e o Submarino Arco-Íris",
+  "credit": "Uma história inventada pelo pai e pelo Guilherme",
   "themeColor": "#1c6ea3",
   "pages": [
     {
       "type": "cover",
-      "image": "images/cover.png",
+      "image": "images/cover.webp",
       "alt": "Capa de O Cão Joaquim e o Submarino Arco-Íris"
     },
     {
@@ -23,7 +26,7 @@
     },
     {
       "type": "image",
-      "image": "images/01-joaquim-alberto.png",
+      "image": "images/01-joaquim-alberto.webp",
       "alt": "O Cão Joaquim vai chamar o Gato Alberto à casa dele junto ao mar"
     },
     {
@@ -40,7 +43,7 @@
     },
     {
       "type": "image",
-      "image": "images/02-gilberto-praia.png",
+      "image": "images/02-gilberto-praia.webp",
       "alt": "O Papagaio Gilberto junta-se ao Cão Joaquim e ao Gato Alberto na praia junto do submarino arco-íris"
     },
     {
@@ -57,7 +60,7 @@
     },
     {
       "type": "image",
-      "image": "images/03-mergulho.png",
+      "image": "images/03-mergulho.webp",
       "alt": "Os três amigos mergulham no submarino arco-íris"
     },
     {
@@ -74,7 +77,7 @@
     },
     {
       "type": "image",
-      "image": "images/04-baleia-choque.png",
+      "image": "images/04-baleia-choque.webp",
       "alt": "O submarino bate sem querer na Baleia Azul"
     },
     {
@@ -90,7 +93,7 @@
     },
     {
       "type": "image",
-      "image": "images/05-baleia-amiga.png",
+      "image": "images/05-baleia-amiga.webp",
       "alt": "A Baleia Azul fala com os três amigos e mostra-lhes o caminho"
     },
     {
@@ -108,7 +111,7 @@
     },
     {
       "type": "image",
-      "image": "images/06-raia-e-joana.png",
+      "image": "images/06-raia-e-joana.webp",
       "alt": "A Raia Batata e a Tartaruga Joana recebem os amigos perto de uma casinha no fundo do mar"
     },
     {
@@ -126,7 +129,7 @@
     },
     {
       "type": "image",
-      "image": "images/07-festa.png",
+      "image": "images/07-festa.webp",
       "alt": "Os amigos comem juntos em casa da Tartaruga Joana"
     },
     {
@@ -144,7 +147,7 @@
     },
     {
       "type": "image",
-      "image": "images/08-peixe-dourado.png",
+      "image": "images/08-peixe-dourado.webp",
       "alt": "Um pequeno peixe dourado passa a grande velocidade diante dos amigos"
     },
     {
@@ -159,8 +162,13 @@
     },
     {
       "type": "image",
-      "image": "images/08-regresso.png",
+      "image": "images/08-regresso.webp",
       "alt": "Os amigos regressam contentes depois da aventura no fundo do mar"
+    },
+    {
+      "type": "image",
+      "image": "images/09-sonho.webp",
+      "alt": "O Cão Joaquim dorme e sonha com os amigos e o submarino arco-íris"
     },
     {
       "type": "ending",

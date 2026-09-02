@@ -1,6 +1,7 @@
 
 const params = new URLSearchParams(window.location.search);
-const bookId = params.get("book") || "cao-joaquim-submarino";
+const requestedBookId = params.get("book") || "cao-joaquim-submarino";
+const bookId = /^[a-z0-9-]+$/.test(requestedBookId) ? requestedBookId : "cao-joaquim-submarino";
 
 const bookElement = document.querySelector("#book");
 const stage = document.querySelector("#stage");
@@ -56,6 +57,12 @@ function renderPage(page, side, pageIndex) {
   if (page.type === "cover") {
     article.classList.add("cover-page");
     article.appendChild(makeImage(page.image, page.alt));
+    const coverCopy = document.createElement("div");
+    coverCopy.className = "reader-cover-copy";
+    appendText(coverCopy, "h1", bookData.coverTitle || bookData.title);
+    appendText(coverCopy, "p", bookData.coverSubtitle || bookData.subtitle);
+    article.appendChild(coverCopy);
+    if (bookData.credit) appendText(article, "p", bookData.credit, "reader-cover-credit");
     return article;
   }
 
@@ -111,7 +118,8 @@ function render() {
   currentIndex = normalizeIndex(currentIndex);
   const indices = displayedIndices();
   bookElement.replaceChildren();
-  bookElement.className = `book ${indices.length === 1 ? "single" : "spread"}`;
+  const isSingleImage = indices.length === 1 && pages[indices[0]].type === "image";
+  bookElement.className = `book ${indices.length === 1 ? "single" : "spread"}${isSingleImage ? " image-view" : ""}`;
   bookElement.style.setProperty("--entry-x", `${direction * 12}px`);
 
   indices.forEach((index, displayIndex) => {

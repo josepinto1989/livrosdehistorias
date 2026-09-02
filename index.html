@@ -1,56 +1,75 @@
 <!doctype html>
-<html lang="pt">
+<html lang="pt-PT">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="As Aventuras do Cão Joaquim e amigos — histórias ilustradas para ler e reler em família.">
-  <meta name="theme-color" content="#dff1fb">
+  <meta name="description" content="As Aventuras do Cão Joaquim e amigos: histórias ilustradas para ler e reler em família.">
+  <meta name="theme-color" content="#eaf7fc">
   <meta name="copyright" content="© 2026 Miguel Pinto. Todos os direitos reservados.">
   <title>As Aventuras do Cão Joaquim e amigos</title>
+  <link rel="preload" as="image" href="books/cao-joaquim-submarino/images/cover.webp">
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body class="library-body">
-  <main class="library-shell">
-    <section class="hero-panel">
-      <div class="hero-copy">
-        <p class="eyebrow">Biblioteca ilustrada</p>
-        <h1>As Aventuras do<br>Cão Joaquim e amigos</h1>
-        <p class="library-intro">Entra nas aventuras do Cão Joaquim e dos seus amigos, cheias de imaginação, gargalhadas e descobertas.</p>
-        <div class="hero-actions">
-          <a class="hero-button" href="reader.html?book=cao-joaquim-submarino">Começar a ler</a>
-          <a class="hero-link" href="direitos.html">Direitos de autor</a>
-        </div>
-      </div>
-      <div class="hero-art">
-        <img src="books/cao-joaquim-submarino/images/cover.png" alt="Capa do livro O Cão Joaquim e o Submarino Arco-Íris">
-      </div>
+  <header class="library-header">
+    <a class="brand" href="index.html" aria-label="Página inicial">
+      <span class="brand-mark" aria-hidden="true">CJ</span>
+      <span>Cão Joaquim <small>&amp; amigos</small></span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#aventuras">Aventuras</a>
+      <a href="direitos.html">Direitos de autor</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="collection-intro">
+      <p class="eyebrow">Biblioteca ilustrada</p>
+      <h1>As Aventuras do<br>Cão Joaquim e amigos</h1>
+      <p>Histórias inventadas em família, cheias de imaginação, gargalhadas e descobertas.</p>
     </section>
 
-    <section class="featured-strip">
-      <div>
+    <section class="featured-book" aria-labelledby="featured-title">
+      <a class="featured-cover" href="reader.html?book=cao-joaquim-submarino" aria-label="Ler O Cão Joaquim e o Submarino Arco-Íris">
+        <img src="books/cao-joaquim-submarino/images/cover.webp" alt="">
+        <span class="cover-copy" aria-hidden="true">
+          <strong>O Cão Joaquim</strong>
+          <span>e o</span>
+          <b>Submarino<br>Arco-Íris</b>
+        </span>
+      </a>
+      <div class="featured-copy">
         <p class="section-kicker">Primeira aventura</p>
-        <h2>O Cão Joaquim e o Submarino Arco-Íris</h2>
-        <p>Uma aventura no fundo do mar com o Gato Alberto, o Papagaio Gilberto, a Baleia Azul, a Raia Batata e a Tartaruga Joana.</p>
+        <h2 id="featured-title">Uma viagem ao fundo do mar</h2>
+        <p>Joaquim, Alberto e Gilberto encontram um submarino arco-íris e partem à procura das suas amigas. Pelo caminho há um pequeno choque, um bolo muito estranho e um monstro inesperado.</p>
+        <dl class="book-facts">
+          <div><dt>Amigos</dt><dd>6</dd></div>
+          <div><dt>Cenário</dt><dd>Fundo do mar</dd></div>
+          <div><dt>Para ler</dt><dd>Em família</dd></div>
+        </dl>
+        <a class="primary-button" href="reader.html?book=cao-joaquim-submarino">
+          <span>Ler a aventura</span><span aria-hidden="true">→</span>
+        </a>
       </div>
-      <a class="secondary-button" href="reader.html?book=cao-joaquim-submarino">Abrir o livro</a>
     </section>
 
-    <section class="books-section">
-      <div class="books-head">
+    <section class="books-section" id="aventuras" aria-labelledby="books-title">
+      <div class="section-heading">
         <div>
-          <p class="section-kicker">Coleção</p>
-          <h2>Biblioteca de aventuras</h2>
+          <p class="section-kicker">A coleção</p>
+          <h2 id="books-title">Todas as aventuras</h2>
         </div>
+        <p>Uma história pronta para abrir. A próxima fica para depois.</p>
       </div>
-      <section class="book-grid" id="bookGrid" aria-label="Livros"></section>
+      <div class="book-grid" id="bookGrid" aria-label="Livros"></div>
     </section>
-
-    <footer class="library-footer">
-      <p>Criado por Miguel Pinto para o Guilherme e Xavier.</p>
-      <p>Para que as aventuras estejam sempre com eles.</p>
-      <p>© 2026 Miguel Pinto · Todos os direitos reservados · <a href="direitos.html">Direitos de autor</a></p>
-    </footer>
   </main>
+
+  <footer class="library-footer">
+    <p><strong>Criado por Miguel Pinto</strong> para o Guilherme e Xavier.</p>
+    <p>Para que as aventuras estejam sempre com eles.</p>
+    <p>© 2026 Miguel Pinto · <a href="direitos.html">Todos os direitos reservados</a></p>
+  </footer>
   <script src="assets/js/library.js"></script>
 </body>
 </html>
