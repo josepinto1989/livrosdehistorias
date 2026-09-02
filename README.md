@@ -1,42 +1,25 @@
 # As Aventuras do Cão Joaquim e amigos
 
-Biblioteca digital de histórias infantis ilustradas, criada por Miguel Pinto para o Guilherme e Xavier.
+Uma coleção digital de histórias infantis ilustradas, inventadas em família por Miguel Pinto para o Guilherme e Xavier.
 
-## O site
+As aventuras acompanham o Cão Joaquim e os seus amigos por lugares onde a curiosidade, o humor e a imaginação transformam cada passeio numa história para ler em conjunto.
 
-- `index.html` apresenta a coleção e os livros disponíveis.
-- `reader.html` abre qualquer história num leitor responsivo.
-- `books/books.json` contém o catálogo.
-- `books/<id>/book.json` contém o texto e a ordem das páginas.
-- `books/<id>/images/` contém as ilustrações otimizadas em WebP.
+**[Abrir a biblioteca ilustrada](https://josepinto1989.github.io/livrosdehistorias/)**
 
-O leitor mostra páginas duplas em ecrãs largos e uma página de cada vez em telemóvel. Aceita botões, teclado, clique nas metades do livro e gesto horizontal.
+## Autoria
 
-## Ver localmente
-
-Como o catálogo é carregado por JavaScript, o site deve ser servido por HTTP:
-
-```powershell
-python -m http.server 8000
-```
-
-Depois, abrir `http://localhost:8000`.
-
-## Adicionar uma aventura
-
-1. Criar `books/nome-do-livro/`.
-2. Colocar as ilustrações em `books/nome-do-livro/images/`.
-3. Copiar e adaptar a estrutura de `book.json`.
-4. Adicionar o livro a `books/books.json`.
-
-Para manter a coleção coerente, as ilustrações devem conservar a identidade visual das personagens, o formato de capa vertical e as cenas interiores horizontais.
-
-## Publicação
-
-O projeto está preparado para GitHub Pages a partir da branch `main` e da pasta raiz. Em **Settings → Pages**, selecionar **Deploy from a branch**, `main` e `/ (root)`.
-
-## Direitos de autor
+As histórias, personagens, textos, ilustrações, imagens, seleção, organização e restantes conteúdos originais deste projeto são da autoria de **Miguel Pinto**.
 
 Copyright © 2026 Miguel Pinto. Todos os direitos reservados.
 
-Este projeto não é open source. A disponibilização do código e do website serve apenas para consulta. Consultar [LICENSE](LICENSE) para os termos completos.
+## Direitos e utilização
+
+Este projeto está disponível publicamente para que as histórias possam ser vistas e lidas para fins pessoais e não comerciais. Não é um projeto open source nem se encontra no domínio público.
+
+Sem autorização prévia e escrita, não é permitida a reprodução, redistribuição, republicação, modificação, adaptação, tradução, exploração comercial ou criação de obras derivadas, sem prejuízo das utilizações permitidas pela lei aplicável e das funcionalidades próprias do GitHub.
+
+Os termos completos encontram-se no ficheiro **[LICENSE](LICENSE)** e na página **[Direitos de autor](https://josepinto1989.github.io/livrosdehistorias/direitos.html)**.
+
+## Dúvidas
+
+Para colocar uma questão sobre o projeto ou sobre as histórias, deve ser aberta uma **[Discussão no GitHub](https://github.com/josepinto1989/livrosdehistorias/discussions/new/choose)**.

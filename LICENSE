@@ -1,77 +1,66 @@
+TODOS OS DIREITOS RESERVADOS
+
 Copyright © 2026 Miguel Pinto
-Todos os direitos reservados / All Rights Reserved
 
-Este repositório, o respetivo website e todo o conteúdo nele disponibilizado
-destinam-se exclusivamente a consulta pessoal.
+1. Titularidade
 
-A disponibilização pública deste conteúdo NÃO concede qualquer licença,
-autorização ou direito de utilização, reprodução ou exploração.
+As histórias, personagens, textos, ilustrações, imagens, áudio, seleção,
+organização, apresentação visual e restantes conteúdos originais que integram
+"As Aventuras do Cão Joaquim e amigos" são da autoria de Miguel Pinto, salvo
+indicação expressa em contrário.
 
-Sem autorização prévia e expressa, por escrito, do titular dos direitos,
-é proibido, no todo ou em parte:
+O autor conserva os direitos patrimoniais e morais reconhecidos pelo Código do
+Direito de Autor e dos Direitos Conexos português, aprovado pelo Decreto-Lei
+n.º 63/85, de 14 de março, na sua redação em vigor, designadamente nos termos
+dos artigos 9.º e 67.º.
 
-- copiar ou reproduzir;
-- descarregar com a finalidade de redistribuição;
-- partilhar ou redistribuir cópias;
-- republicar, alojar, espelhar ou disponibilizar noutro website, aplicação,
-  serviço, plataforma ou suporte;
+2. Permissão de consulta
+
+É concedida autorização limitada para aceder ao website, visualizar os seus
+conteúdos e ler as histórias para fins pessoais e não comerciais.
+
+Esta autorização não transfere a titularidade de qualquer direito de autor nem
+concede uma licença open source.
+
+3. Direitos reservados
+
+Salvo autorização prévia e expressa, por escrito, do titular dos direitos, não
+é permitido, no todo ou em parte:
+
+- copiar, reproduzir, redistribuir, partilhar ou republicar os conteúdos;
+- alojar, espelhar ou disponibilizar os conteúdos noutro website, aplicação,
+  plataforma, publicação ou suporte;
 - modificar, adaptar, traduzir ou criar obras derivadas;
-- utilizar comercialmente;
-- vender, licenciar, sublicenciar ou incluir em produtos ou serviços;
-- utilizar textos, histórias, personagens, ilustrações, imagens, áudio,
-  design ou código deste projeto em outras publicações ou projetos;
-- utilizar o conteúdo para treino, criação ou enriquecimento de conjuntos
-  de dados destinados a sistemas de inteligência artificial, salvo
-  autorização escrita do titular.
+- vender, licenciar, sublicenciar ou explorar comercialmente;
+- reutilizar histórias, personagens, textos, ilustrações, imagens, áudio,
+  elementos gráficos ou ficheiros do projeto noutras obras ou serviços;
+- utilizar os conteúdos para treino, avaliação ou enriquecimento de modelos ou
+  conjuntos de dados de inteligência artificial.
 
-É permitida apenas a visualização e consulta do website para uso pessoal.
+4. Limites legais
 
-A existência deste projeto num repositório público, ou o facto de o conteúdo
-poder ser tecnicamente acedido através de um navegador, não significa que
-o conteúdo seja open source, de domínio público ou livre de direitos.
+Nada nestes termos pretende excluir ou restringir utilizações livres, citações,
+reproduções permitidas ou outras exceções e limitações imperativas previstas no
+Código do Direito de Autor e dos Direitos Conexos, incluindo as situações
+legalmente previstas no artigo 75.º e demais legislação aplicável.
 
-Os direitos sobre as histórias, personagens, textos, ilustrações, imagens,
-elementos gráficos e restantes conteúdos originais pertencem ao respetivo
-titular dos direitos.
+5. Repositório público no GitHub
 
-Para qualquer utilização além da consulta pessoal é necessária autorização
-prévia e escrita do titular.
+A disponibilização pública do repositório não coloca os conteúdos no domínio
+público e não concede direitos adicionais de reutilização.
 
+Aplicam-se, contudo, as permissões não exclusivas estritamente necessárias ao
+funcionamento do GitHub e concedidas pelos respetivos Termos de Serviço,
+incluindo a visualização e reprodução através de forks dentro do próprio
+serviço e das funcionalidades disponibilizadas pela plataforma.
 
-Exceção técnica relativa à plataforma de alojamento:
-se este projeto for disponibilizado através de uma plataforma como o GitHub,
-aplicam-se também, estritamente na medida necessária para o funcionamento
-dessa plataforma, os direitos que o utilizador tenha de conceder à própria
-plataforma e aos respetivos utilizadores segundo os Termos de Serviço
-aplicáveis. Essa exceção não concede quaisquer direitos adicionais de
-reutilização fora do que seja obrigatório ou expressamente permitido pela
-funcionalidade da plataforma.
+Fora dessas funcionalidades, da permissão de consulta indicada acima e das
+utilizações permitidas por lei, qualquer utilização exige autorização prévia e
+escrita do titular dos direitos.
 
----
+6. Referências
 
-Copyright © 2026 Miguel Pinto
-All Rights Reserved.
-
-This repository, its website, and all content made available through it are
-provided solely for personal viewing and consultation.
-
-Public availability does NOT grant any licence, permission, or right to copy,
-reproduce, redistribute, republish, modify, adapt, translate, sell, license,
-sublicense, commercially exploit, create derivative works from, mirror, host,
-or otherwise reuse any part of the content without the copyright holder's
-prior written permission.
-
-This restriction includes, without limitation, the stories, characters,
-texts, illustrations, images, audio, visual design, and code contained in
-this project.
-
-Viewing the public website for personal use is permitted. All other uses
-require prior written permission from the copyright holder.
-
-
-Technical hosting-platform exception:
-if this project is made available through a platform such as GitHub, any
-rights that must be granted to the platform and its users under the
-applicable Terms of Service apply strictly to the extent required for the
-platform to operate. This exception grants no additional reuse rights beyond
-what is mandatory or expressly permitted by the platform's functionality.
+- Código do Direito de Autor e dos Direitos Conexos:
+  https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34475475
+- Termos de Serviço do GitHub, secção relativa a repositórios públicos:
+  https://docs.github.com/en/site-policy/github-terms/github-terms-of-service

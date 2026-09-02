@@ -34,24 +34,6 @@ img { max-width: 100%; }
   font-weight: 800;
   text-transform: uppercase;
 }
-.primary-button {
-  display: inline-flex;
-  min-height: 50px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-  padding: 0 18px;
-  border: 2px solid var(--ink);
-  border-radius: 4px;
-  color: var(--white);
-  background: var(--ink);
-  font-weight: 800;
-  text-decoration: none;
-  box-shadow: 5px 5px 0 var(--sun);
-  transition: transform 150ms ease, box-shadow 150ms ease;
-}
-.primary-button:hover { transform: translate(2px, 2px); box-shadow: 3px 3px 0 var(--sun); }
-.primary-button:focus-visible,
 .library-header a:focus-visible,
 .library-card:focus-visible,
 .nav-button:focus-visible,
@@ -108,88 +90,24 @@ img { max-width: 100%; }
 .collection-intro {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
-  padding: 72px 0 56px;
+  padding: 56px 0 42px;
 }
 .collection-intro h1 {
-  max-width: 920px;
+  max-width: 820px;
   margin: 0;
-  font: 400 76px/.94 Georgia, "Times New Roman", serif;
+  font: 400 60px/.98 Georgia, "Times New Roman", serif;
 }
 .collection-intro > p:last-child {
   max-width: 590px;
-  margin: 24px 0 0;
+  margin: 18px 0 0;
   color: var(--muted);
-  font: 400 20px/1.55 Georgia, "Times New Roman", serif;
+  font: 400 19px/1.5 Georgia, "Times New Roman", serif;
 }
-
-.featured-book {
-  width: min(1180px, calc(100% - 40px));
-  margin: 0 auto 88px;
-  display: grid;
-  grid-template-columns: minmax(280px, 430px) minmax(0, 1fr);
-  align-items: center;
-  gap: 72px;
-  padding: 56px;
-  background: var(--seafoam);
-  border: 1px solid rgba(20, 94, 86, .2);
-}
-.featured-cover {
-  position: relative;
-  display: block;
-  aspect-ratio: .707 / 1;
-  overflow: hidden;
-  border: 8px solid var(--white);
-  border-radius: 4px;
-  box-shadow: 12px 14px 0 rgba(10, 80, 125, .15);
-  text-decoration: none;
-  transform: rotate(-1deg);
-  transition: transform 180ms ease;
-}
-.featured-cover:hover { transform: rotate(0) translateY(-4px); }
-.featured-cover img { width: 100%; height: 100%; display: block; object-fit: cover; }
-.cover-copy {
-  position: absolute;
-  inset: 4.5% 7% auto;
-  color: #083e68;
-  text-align: center;
-  text-shadow: 0 2px 0 rgba(255,255,255,.9), 0 0 10px rgba(255,255,255,.72);
-}
-.cover-copy strong {
-  display: block;
-  font: 700 33px/.95 Georgia, "Times New Roman", serif;
-}
-.cover-copy > span { display: block; margin: 4px 0; font: 700 16px/1 Georgia, serif; }
-.cover-copy b {
-  display: block;
-  color: #c74630;
-  font: 700 36px/.92 Georgia, "Times New Roman", serif;
-}
-.featured-copy { max-width: 580px; }
-.featured-copy h2 {
-  margin: 0;
-  font: 400 52px/1 Georgia, "Times New Roman", serif;
-}
-.featured-copy > p:not(.section-kicker) {
-  margin: 22px 0 0;
-  color: #3e5b60;
-  font: 400 18px/1.62 Georgia, "Times New Roman", serif;
-}
-.book-facts {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin: 30px 0;
-  padding: 18px 0;
-  border-top: 1px solid rgba(21,48,73,.18);
-  border-bottom: 1px solid rgba(21,48,73,.18);
-}
-.book-facts div + div { border-left: 1px solid rgba(21,48,73,.18); padding-left: 20px; }
-.book-facts dt { margin-bottom: 6px; color: var(--muted); font-size: 11px; font-weight: 800; text-transform: uppercase; }
-.book-facts dd { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 17px; }
 
 .books-section {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
-  padding-bottom: 96px;
+  padding-bottom: 88px;
 }
 .section-heading {
   display: flex;
@@ -204,14 +122,14 @@ img { max-width: 100%; }
 .library-card {
   min-width: 0;
   display: grid;
-  grid-template-columns: 150px minmax(0, 1fr);
-  gap: 22px;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 26px;
   align-items: center;
-  padding: 28px;
+  padding: 30px;
   border-bottom: 1px solid var(--line);
   text-decoration: none;
 }
-.library-card:nth-child(odd) { border-right: 1px solid var(--line); padding-left: 0; }
+.library-card:nth-child(odd) { border-right: 1px solid var(--line); }
 .library-card:hover { background: #f4fbfd; }
 .card-cover {
   position: relative;
@@ -432,11 +350,8 @@ img { max-width: 100%; }
 }
 
 @media (max-width: 900px) {
-  .collection-intro h1 { font-size: 60px; }
-  .featured-book { grid-template-columns: minmax(240px, 340px) minmax(0, 1fr); gap: 42px; padding: 38px; }
-  .featured-copy h2 { font-size: 42px; }
-  .cover-copy strong { font-size: 26px; }
-  .cover-copy b { font-size: 29px; }
+  .collection-intro h1 { font-size: 52px; }
+  .library-card { grid-template-columns: 140px minmax(0, 1fr); }
 }
 
 @media (max-width: 720px) {
@@ -445,24 +360,9 @@ img { max-width: 100%; }
   .library-header nav a:first-child { display: none; }
   .brand { font-size: 16px; }
   .brand small { display: block; margin-top: 2px; }
-  .collection-intro { width: min(100% - 28px, 1180px); padding: 48px 0 40px; }
-  .collection-intro h1 { font-size: 44px; }
+  .collection-intro { width: min(100% - 28px, 1180px); padding: 42px 0 34px; }
+  .collection-intro h1 { font-size: 42px; }
   .collection-intro > p:last-child { font-size: 17px; }
-  .featured-book {
-    width: 100%;
-    grid-template-columns: 1fr;
-    gap: 42px;
-    margin-bottom: 64px;
-    padding: 38px 20px 44px;
-  }
-  .featured-cover { width: min(84vw, 390px); justify-self: center; }
-  .featured-copy { width: min(100%, 520px); justify-self: center; }
-  .featured-copy h2 { font-size: 38px; }
-  .featured-copy > p:not(.section-kicker) { font-size: 17px; }
-  .book-facts { grid-template-columns: 1fr; }
-  .book-facts div { display: flex; justify-content: space-between; gap: 20px; }
-  .book-facts div + div { margin-top: 10px; padding: 10px 0 0; border-top: 1px solid rgba(21,48,73,.12); border-left: 0; }
-  .book-facts dt { margin: 0; }
   .books-section { width: min(100% - 28px, 1180px); padding-bottom: 64px; }
   .section-heading { align-items: start; flex-direction: column; }
   .section-heading h2 { font-size: 36px; }
@@ -507,6 +407,6 @@ img { max-width: 100%; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .book, .library-card, .featured-cover, .primary-button { animation: none; transition: none; }
+  .book, .library-card { animation: none; transition: none; }
   .progress-track span { transition: none; }
 }

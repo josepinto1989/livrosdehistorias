@@ -6,7 +6,7 @@ async function loadLibrary() {
     if (!response.ok) throw new Error("Não foi possível carregar a biblioteca.");
     const data = await response.json();
 
-    data.books.forEach((book) => {
+    data.books.forEach((book, index) => {
       const available = book.status === "available";
       const card = document.createElement(available ? "a" : "article");
       card.className = `library-card${available ? "" : " soon"}`;
@@ -18,7 +18,7 @@ async function loadLibrary() {
         const image = document.createElement("img");
         image.src = book.cover;
         image.alt = `Capa de ${book.title}`;
-        image.loading = "lazy";
+        image.loading = index < 2 ? "eager" : "lazy";
         cover.appendChild(image);
       } else {
         const placeholder = document.createElement("div");
