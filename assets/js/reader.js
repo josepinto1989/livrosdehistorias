@@ -24,13 +24,13 @@ const isMobileView = () => mobileQuery.matches;
 
 function normalizeIndex(index) {
   const bounded = Math.max(0, Math.min(lastIndex, index));
-  if (isMobileView() || bounded === 0 || bounded === lastIndex) return bounded;
+  if (isMobileView() || bounded === 0) return bounded;
   return 1 + Math.floor((bounded - 1) / 2) * 2;
 }
 
 function displayedIndices() {
-  if (isMobileView() || currentIndex === 0 || currentIndex === lastIndex) return [currentIndex];
-  return [currentIndex, Math.min(currentIndex + 1, lastIndex - 1)];
+  if (isMobileView() || currentIndex === 0) return [currentIndex];
+  return currentIndex + 1 <= lastIndex ? [currentIndex, currentIndex + 1] : [currentIndex];
 }
 
 function appendText(parent, tagName, text, className) {
@@ -91,9 +91,8 @@ function renderPage(page, side, pageIndex) {
 
 function viewPosition() {
   if (isMobileView()) return { current: currentIndex + 1, total: pages.length };
-  if (currentIndex === 0) return { current: 1, total: Math.ceil((pages.length + 1) / 2) };
-  if (currentIndex === lastIndex) return { current: Math.ceil((pages.length + 1) / 2), total: Math.ceil((pages.length + 1) / 2) };
-  return { current: 2 + Math.floor((currentIndex - 1) / 2), total: Math.ceil((pages.length + 1) / 2) };
+  const total = 1 + Math.ceil((pages.length - 1) / 2);
+  return { current: currentIndex === 0 ? 1 : 2 + Math.floor((currentIndex - 1) / 2), total };
 }
 
 function updateUrl() {
@@ -131,17 +130,16 @@ function render() {
   position.textContent = `${view.current} / ${view.total}`;
   progress.style.width = `${view.total <= 1 ? 100 : ((view.current - 1) / (view.total - 1)) * 100}%`;
   previousButton.disabled = currentIndex === 0;
-  nextButton.disabled = currentIndex === lastIndex;
+  nextButton.disabled = indices.includes(lastIndex);
   updateUrl();
   preloadAround();
 }
 
 function goNext() {
-  if (currentIndex === lastIndex) return;
+  if (displayedIndices().includes(lastIndex)) return;
   direction = 1;
   if (isMobileView()) currentIndex += 1;
   else if (currentIndex === 0) currentIndex = 1;
-  else if (currentIndex >= lastIndex - 2) currentIndex = lastIndex;
   else currentIndex += 2;
   render();
 }
@@ -150,7 +148,6 @@ function goPrevious() {
   if (currentIndex === 0) return;
   direction = -1;
   if (isMobileView()) currentIndex -= 1;
-  else if (currentIndex === lastIndex) currentIndex = Math.max(1, lastIndex - 2);
   else if (currentIndex <= 1) currentIndex = 0;
   else currentIndex -= 2;
   render();

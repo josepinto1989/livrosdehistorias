@@ -166,11 +166,6 @@
       "alt": "Os amigos regressam contentes depois da aventura no fundo do mar"
     },
     {
-      "type": "image",
-      "image": "images/09-sonho.webp",
-      "alt": "O Cão Joaquim dorme e sonha com os amigos e o submarino arco-íris"
-    },
-    {
       "type": "ending",
       "heading": "Boa noite, Cão Joaquim",
       "text": [
@@ -181,6 +176,11 @@
         "E adormeceu a sonhar com o submarino arco-íris."
       ],
       "end": "Fim."
+    },
+    {
+      "type": "image",
+      "image": "images/09-sonho.webp",
+      "alt": "O Cão Joaquim dorme e sonha com os amigos e o submarino arco-íris"
     }
   ]
 }
