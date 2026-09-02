@@ -12,10 +12,12 @@
       "featured": true
     },
     {
-      "id": "proxima-aventura",
-      "title": "Próxima aventura",
-      "subtitle": "Uma nova história do Cão Joaquim está a caminho.",
-      "status": "soon"
+      "id": "cao-joaquim-deserto",
+      "title": "O Cão Joaquim e o Escorpião do Deserto",
+      "subtitle": "Uma aventura entre dunas",
+      "cover": "books/cao-joaquim-deserto/images/cover.webp",
+      "status": "available",
+      "href": "reader.html?book=cao-joaquim-deserto"
     }
   ]
 }

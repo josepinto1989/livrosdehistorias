@@ -1,0 +1,164 @@
+{
+  "id": "cao-joaquim-deserto",
+  "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
+  "title": "O Cão Joaquim e o Escorpião do Deserto",
+  "subtitle": "Uma aventura entre dunas",
+  "coverTitle": "O Cão Joaquim",
+  "coverSubtitle": "e o Escorpião do Deserto",
+  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "themeColor": "#d9762d",
+  "pages": [
+    {
+      "type": "cover",
+      "image": "images/cover.webp",
+      "alt": "Capa de O Cão Joaquim e o Escorpião do Deserto"
+    },
+    {
+      "type": "text",
+      "heading": "Uma ideia muito quente",
+      "text": [
+        "Era uma vez um cão chamado Joaquim.",
+        "Certo dia, acordou com vontade de conhecer um lugar cheio de areia, sol e mistérios.",
+        "— Hoje vou ao deserto!",
+        "Mas uma aventura tão grande não podia ser feita sozinho.",
+        "Por isso, correu até à casa do seu melhor amigo."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/01-porta-alberto.webp",
+      "alt": "O Cão Joaquim bate à porta do Gato Alberto"
+    },
+    {
+      "type": "sound",
+      "sound": "TRUZ, TRUZ!",
+      "text": [
+        "Joaquim bateu à porta.",
+        "Ninguém respondeu.",
+        "Bateu outra vez, agora com mais força.",
+        "— GATO ALBERTOOOOO!",
+        "A porta abriu-se devagar e apareceu Alberto, ainda cheio de sono.",
+        "— Queres vir comigo ao deserto?"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/02-chamar-gilberto.webp",
+      "alt": "Joaquim e Alberto chamam o Papagaio Gilberto para a aventura no deserto"
+    },
+    {
+      "type": "text",
+      "heading": "Ainda falta alguém",
+      "text": [
+        "Alberto pensou um bocadinho e levantou uma pata.",
+        "— Espera! Ainda falta alguém.",
+        "Os dois encheram os pulmões e gritaram:",
+        "— PAPAGAIO GILBERTOOOOO!",
+        "Gilberto desceu do céu num instante.",
+        "E lá foram os três amigos a caminho do deserto."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/03-areia-quente.webp",
+      "alt": "Os três amigos atravessam o deserto e o Gato Alberto salta por causa da areia quente"
+    },
+    {
+      "type": "sound",
+      "sound": "AI! AI! AI!",
+      "text": [
+        "O deserto era enorme. Havia dunas para todos os lados e o sol brilhava lá no alto.",
+        "O Gato Alberto pôs uma pata na areia e começou logo a saltar.",
+        "— Areia quente! Areia quente!",
+        "O Papagaio Gilberto bateu as asas e riu-se:",
+        "— Ainda bem que eu sei voar!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/04-pedra-escorpiao.webp",
+      "alt": "Um enorme escorpião aparece debaixo de uma grande pedra preta"
+    },
+    {
+      "type": "text",
+      "heading": "A pedra preta",
+      "text": [
+        "Mais adiante encontraram uma pedra preta, grande e brilhante.",
+        "— O que estará ali por baixo? — perguntou Joaquim.",
+        "Os amigos espreitaram e, de repente, apareceu um enorme escorpião.",
+        "— Quem entrou na minha casa?",
+        "O escorpião ergueu o ferrão e avançou muito zangado."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/05-pico-pico.webp",
+      "alt": "O escorpião levanta o ferrão enquanto Joaquim tenta acalmá-lo"
+    },
+    {
+      "type": "sound",
+      "sound": "PICO, PICO!",
+      "text": [
+        "— Vou picar-vos! Pico, pico, pico!",
+        "Alberto escondeu-se atrás de Joaquim. Gilberto voou um pouco mais alto.",
+        "Mas o Cão Joaquim respirou fundo e disse:",
+        "— Desculpe, senhor Escorpião. Não queríamos incomodá-lo. Só viemos conhecer o deserto.",
+        "O escorpião baixou devagar o ferrão."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/06-indicacoes.webp",
+      "alt": "O escorpião dá indicações muito confusas aos três amigos"
+    },
+    {
+      "type": "text",
+      "heading": "O caminho para o oásis",
+      "text": [
+        "— Nesse caso, deviam visitar o oásis — disse o escorpião.",
+        "— O que é um oásis? — perguntou Alberto.",
+        "— É um lugar com água, sombra e comida. Até há escaravelhos!",
+        "Os olhos de Alberto brilharam.",
+        "— Sigam em frente, virem à esquerda, depois à direita, passem uma duna, outra duna, a árvore que já não está lá e uma pedra…"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/07-perdidos.webp",
+      "alt": "Joaquim, Alberto e Gilberto procuram o caminho entre muitas dunas"
+    },
+    {
+      "type": "text",
+      "heading": "Esquerda ou direita?",
+      "text": [
+        "Os três amigos agradeceram e seguiram caminho.",
+        "Foram em frente, viraram à esquerda, depois à direita… ou seria outra vez à esquerda?",
+        "Passaram uma duna. Depois outra. E mais outra.",
+        "Quando já estavam quase a desistir, Gilberto viu palmeiras ao longe.",
+        "— É ali! Encontrámos o oásis!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/08-oasis.webp",
+      "alt": "Os três amigos brincam felizes junto à água e às palmeiras do oásis"
+    },
+    {
+      "type": "ending",
+      "heading": "Até aparecer a noite",
+      "text": [
+        "No oásis havia água fresca, palmeiras e uma sombra deliciosa.",
+        "Joaquim, Alberto e Gilberto brincaram, correram e chapinharam até o céu ficar cor de laranja.",
+        "— Acho que está na hora de irmos para casa — disse Joaquim.",
+        "Quando chegou à sua cama, lembrou-se da areia quente, do escorpião e das indicações mais confusas do mundo.",
+        "Tinha sido mais uma aventura inesquecível. Mas agora estava na hora de dormir."
+      ],
+      "end": "Fim."
+    },
+    {
+      "type": "image",
+      "image": "images/09-sonho-deserto.webp",
+      "alt": "O Cão Joaquim dorme e sonha com os amigos no oásis do deserto"
+    }
+  ]
+}
