@@ -18,6 +18,14 @@
       "cover": "books/cao-joaquim-deserto/images/cover.webp",
       "status": "available",
       "href": "reader.html?book=cao-joaquim-deserto"
+    },
+    {
+      "id": "cao-joaquim-centro-terra",
+      "title": "O Cão Joaquim no Centro da Terra",
+      "subtitle": "Uma aventura entre dinossauros",
+      "cover": "books/cao-joaquim-centro-terra/images/cover.webp",
+      "status": "available",
+      "href": "reader.html?book=cao-joaquim-centro-terra"
     }
   ]
 }
