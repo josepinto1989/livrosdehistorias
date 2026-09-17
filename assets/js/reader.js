@@ -1,6 +1,6 @@
 
 const params = new URLSearchParams(window.location.search);
-const assetVersion = "20260905-2";
+const assetVersion = "20260917-1";
 const requestedBookId = params.get("book") || "cao-joaquim-submarino";
 const bookId = /^[a-z0-9-]+$/.test(requestedBookId) ? requestedBookId : "cao-joaquim-submarino";
 

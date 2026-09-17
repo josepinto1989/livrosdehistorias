@@ -26,6 +26,14 @@
       "cover": "books/cao-joaquim-centro-terra/images/cover.webp",
       "status": "available",
       "href": "reader.html?book=cao-joaquim-centro-terra"
+    },
+    {
+      "id": "cao-joaquim-paraquedas",
+      "title": "O Cão Joaquim e o Salto de Paraquedas",
+      "subtitle": "Uma aventura nas alturas",
+      "cover": "books/cao-joaquim-paraquedas/images/cover.webp",
+      "status": "available",
+      "href": "reader.html?book=cao-joaquim-paraquedas"
     }
   ]
 }
