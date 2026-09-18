@@ -96,7 +96,25 @@ Se alterares a página inicial ou `library.js`, aumenta também o número de `li
 
 Exemplo: muda `20260902-5` para `20260902-6` em todos os locais correspondentes.
 
-## 7. Publicar no GitHub
+## 7. Gerar a versão para impressão
+
+Se for a primeira vez que usas o gerador, instala as dependências:
+
+```powershell
+python -m pip install -r requirements-print.txt
+```
+
+Na pasta principal do projeto, executa:
+
+```powershell
+python tools/gerar_livros_impressao.py --book cao-joaquim-floresta
+```
+
+O PDF é criado dentro de `impressao`. Está preparado como livreto A5 em folhas A4, já com as páginas impostas na ordem correta. Confirma visualmente a capa, o início, o meio e o final antes de publicar.
+
+As instruções de impressão estão em `impressao/README.md`.
+
+## 8. Publicar no GitHub
 
 Depois dos testes, executa na pasta do projeto:
 
@@ -119,4 +137,5 @@ https://josepinto1989.github.io/livrosdehistorias/
 - [ ] `books/books.json` contém a nova história.
 - [ ] As versões de cache foram atualizadas.
 - [ ] O livro foi testado no computador e no telemóvel.
+- [ ] O PDF de impressão foi gerado e revisto.
 - [ ] As alterações foram enviadas para a branch `main`.
