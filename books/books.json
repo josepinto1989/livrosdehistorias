@@ -34,6 +34,14 @@
       "cover": "books/cao-joaquim-paraquedas/images/cover.webp",
       "status": "available",
       "href": "reader.html?book=cao-joaquim-paraquedas"
+    },
+    {
+      "id": "cao-joaquim-formigas",
+      "title": "O Cão Joaquim e as Formigas",
+      "subtitle": "Uma aventura em tamanho pequeno",
+      "cover": "books/cao-joaquim-formigas/images/cover.webp",
+      "status": "available",
+      "href": "reader.html?book=cao-joaquim-formigas"
     }
   ]
 }

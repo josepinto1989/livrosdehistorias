@@ -1,0 +1,176 @@
+{
+  "id": "cao-joaquim-formigas",
+  "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
+  "title": "O Cão Joaquim e as Formigas",
+  "subtitle": "Uma aventura em tamanho pequeno",
+  "coverTitle": "O Cão Joaquim",
+  "coverSubtitle": "e as Formigas",
+  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "themeColor": "#bd563e",
+  "pages": [
+    {
+      "type": "cover",
+      "image": "images/cover.webp",
+      "alt": "Capa de O Cão Joaquim e as Formigas"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Era uma vez um cão chamado Joaquim.",
+        "Certo dia, estava sozinho em casa a arrumar umas caixas antigas.",
+        "Dentro de uma delas encontrou uma pistola muito estranha, cheia de luzes e botões.",
+        "Não era uma pistola qualquer. Quem fosse atingido pelo seu raio ficava muito, muito pequenino.",
+        "Joaquim levantou-a com cuidado e teve logo uma ideia para uma nova aventura."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/01-pistola-magica.webp",
+      "alt": "O Cão Joaquim encontra uma pistola mágica de encolher numa caixa antiga"
+    },
+    {
+      "type": "sound",
+      "sound": "TRUZ! TRUZ!",
+      "text": [
+        "Joaquim correu até à casa do Gato Alberto e bateu à porta.",
+        "Ninguém respondeu, por isso chamou ainda mais alto:",
+        "— GATO ALBERTOOOOO!",
+        "Alberto abriu a porta e apontou para a campainha.",
+        "— Joaquim, aquele botão serve para tocar. Não precisas de acordar a rua inteira!",
+        "— Mas assim é muito mais divertido — respondeu Joaquim."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/02-porta-alberto.webp",
+      "alt": "Joaquim chama pelo Gato Alberto à porta de casa"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Joaquim mostrou-lhe a pistola mágica.",
+        "— Isto parece um brinquedo — disse Alberto.",
+        "— Faz-nos ficar tão pequenos que podemos explorar lugares novos!",
+        "Alberto achou a ideia maluca, como quase todas as ideias de Joaquim, mas aceitou.",
+        "Depois chamaram o amigo que nunca perdia uma aventura:",
+        "— PAPAGAIO GILBERTOOOOO!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/03-chegada-gilberto.webp",
+      "alt": "O Papagaio Gilberto chega enquanto Joaquim mostra a pistola mágica a Alberto"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Perto da casa de Alberto havia um grande formigueiro.",
+        "— É daqui que vêm aquelas formigas todas! — resmungou o gato. — Estão sempre a entrar em minha casa.",
+        "— Então vamos falar com a rainha — disse Joaquim.",
+        "Apontou a pistola primeiro a Alberto, depois a Gilberto e, por fim, a si próprio.",
+        "ZAP! ZAP! ZAP!",
+        "Num instante, os três ficaram mais pequenos do que uma formiga."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/04-encolher.webp",
+      "alt": "Joaquim usa a pistola mágica e os três amigos ficam minúsculos junto ao formigueiro"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Os amigos entraram no formigueiro com pequenas lanternas.",
+        "Lá dentro havia túneis por todos os lados e estava muito escuro.",
+        "De repente, duas formigas guardas bloquearam o caminho.",
+        "— Quem são vocês? Não podem passar!",
+        "Joaquim apresentou os amigos e explicou que queriam falar com a rainha sobre as visitas à casa de Alberto.",
+        "Uma das guardas foi pedir autorização."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/05-formigas-guardas.webp",
+      "alt": "Duas formigas guardas encontram os três amigos nos túneis escuros do formigueiro"
+    },
+    {
+      "type": "text",
+      "text": [
+        "— A rainha vai receber-vos — anunciou a guarda quando voltou.",
+        "A caminho do palácio, os amigos viram os armazéns de comida, as salas das formigas pequenas e muitas trabalhadoras a abrir novos túneis.",
+        "Gilberto iluminava o caminho com a lanterna. Alberto olhava para tudo de boca aberta.",
+        "O formigueiro era uma verdadeira cidade debaixo da terra."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/06-cidade-formigas.webp",
+      "alt": "Os amigos percorrem a cidade subterrânea das formigas e veem armazéns e túneis"
+    },
+    {
+      "type": "text",
+      "text": [
+        "No fim do túnel encontraram a Rainha das Formigas, muito maior do que as outras e com uma coroa gigantesca.",
+        "Alberto explicou que estava cansado de encontrar formigas em casa.",
+        "— Mas tu deixas sempre o açúcar de fora — respondeu a rainha. — Nós precisamos de comida para toda a colónia.",
+        "Depois ofereceu-lhes três copinhos de água com açúcar.",
+        "— É muito doce! — disse Joaquim depois de provar."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/07-rainha-formigas.webp",
+      "alt": "A Rainha das Formigas recebe os amigos e oferece-lhes água com açúcar"
+    },
+    {
+      "type": "text",
+      "text": [
+        "A rainha propôs um acordo:",
+        "— Se deixares um pratinho com açúcar à entrada do formigueiro, nós deixamos de entrar em tua casa.",
+        "Alberto suspirou. Não queria alimentar as formigas, mas queria ainda menos encontrá-las na cozinha.",
+        "— Está bem, eu faço isso.",
+        "As formigas despediram-se e os três amigos voltaram à superfície, satisfeitos por terem resolvido o problema."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/08-acordo.webp",
+      "alt": "Alberto aceita o acordo da rainha diante das formigas e dos amigos"
+    },
+    {
+      "type": "sound",
+      "sound": "PLIM!",
+      "text": [
+        "Já cá fora, Joaquim parou de repente.",
+        "— Esqueci-me de descobrir como voltamos ao tamanho normal!",
+        "Os três olharam uns para os outros. Até uma mosca parecia gigantesca ao lado deles.",
+        "Nesse momento começou a chover.",
+        "Uma gota enorme caiu em cima de Joaquim e… PLIM! Voltou ao tamanho normal.",
+        "— Já percebi! A água faz-nos crescer!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/09-chuva.webp",
+      "alt": "Uma gota de chuva faz Joaquim voltar ao tamanho normal junto dos amigos minúsculos"
+    },
+    {
+      "type": "ending",
+      "text": [
+        "Gilberto deixou-se molhar e também cresceu. Mas Alberto fugia de cada gota.",
+        "— Eu não gosto de água!",
+        "Joaquim pegou na mangueira e apontou-a ao amigo.",
+        "CHUÁÁÁ! Alberto voltou ao tamanho normal, encharcado da cabeça às patas.",
+        "— Joaquim, molhaste-me todo!",
+        "— Preferias ficar pequeno para sempre?",
+        "Alberto pensou um bocadinho e foi para casa secar o pelo. Depois de tanta confusão, todos foram dormir."
+      ],
+      "end": "Fim."
+    },
+    {
+      "type": "image",
+      "image": "images/10-mangueira.webp",
+      "alt": "Joaquim molha Alberto com a mangueira para o fazer voltar ao tamanho normal"
+    }
+  ]
+}
