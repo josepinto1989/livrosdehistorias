@@ -2,7 +2,7 @@
 async function loadLibrary() {
   const grid = document.querySelector("#bookGrid");
   try {
-    const response = await fetch("books/books.json?v=20260929-1");
+    const response = await fetch("books/books.json?v=20260929-2");
     if (!response.ok) throw new Error("Não foi possível carregar a biblioteca.");
     const data = await response.json();
 
