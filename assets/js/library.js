@@ -1,8 +1,10 @@
 
+const libraryAssetVersion = "20260929-4";
+
 async function loadLibrary() {
   const grid = document.querySelector("#bookGrid");
   try {
-    const response = await fetch("books/books.json?v=20260929-2");
+    const response = await fetch(`books/books.json?v=${libraryAssetVersion}`);
     if (!response.ok) throw new Error("Não foi possível carregar a biblioteca.");
     const data = await response.json();
 
@@ -16,7 +18,7 @@ async function loadLibrary() {
       cover.className = "card-cover";
       if (book.cover) {
         const image = document.createElement("img");
-        image.src = book.cover;
+        image.src = `${book.cover}?v=${libraryAssetVersion}`;
         image.alt = `Capa de ${book.title}`;
         image.loading = index < 2 ? "eager" : "lazy";
         cover.appendChild(image);

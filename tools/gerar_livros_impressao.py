@@ -29,11 +29,12 @@ OUTPUT_DIR = ROOT / "impressao"
 PAGE_WIDTH, PAGE_HEIGHT = A5
 SHEET_WIDTH, SHEET_HEIGHT = landscape(A4)
 
-PAPER = colors.HexColor("#fbfaf5")
-INK = colors.HexColor("#17354b")
-MUTED = colors.HexColor("#66727a")
-LINE = colors.HexColor("#d9d6cc")
-LIBRARY_BLUE = colors.HexColor("#dceff5")
+PAPER = colors.HexColor("#f3eadb")
+INK = colors.HexColor("#1d1b19")
+MUTED = colors.HexColor("#59605b")
+LINE = colors.HexColor("#aaa294")
+BRICK = colors.HexColor("#b54733")
+PETROL = colors.HexColor("#315f63")
 
 
 def load_json(path: Path) -> dict:
@@ -71,7 +72,7 @@ def fit_image(pdf: canvas.Canvas, path: Path, box: tuple[float, float, float, fl
     draw_x = x + (width - draw_width) / 2
     draw_y = y + (height - draw_height) / 2
 
-    pdf.setFillColor(colors.white)
+    pdf.setFillColor(PAPER)
     pdf.setStrokeColor(LINE)
     pdf.setLineWidth(0.6)
     pdf.rect(draw_x - 1.5 * mm, draw_y - 1.5 * mm,
@@ -173,12 +174,12 @@ def draw_image_page(pdf: canvas.Canvas, image_path: Path, number: int,
 
 
 def draw_cover(pdf: canvas.Canvas, cover_path: Path, book: dict) -> None:
-    pdf.setFillColor(LIBRARY_BLUE)
+    pdf.setFillColor(PETROL)
     pdf.rect(0, 0, PAGE_WIDTH, PAGE_HEIGHT, fill=1, stroke=0)
     fit_image(pdf, cover_path, (7 * mm, 7 * mm, PAGE_WIDTH - 14 * mm,
                                PAGE_HEIGHT - 14 * mm))
 
-    accent = colors.HexColor(book.get("themeColor", "#bd563e"))
+    accent = BRICK
     panel_x = 14 * mm
     panel_y = PAGE_HEIGHT - 59 * mm
     panel_width = PAGE_WIDTH - 28 * mm
@@ -186,8 +187,7 @@ def draw_cover(pdf: canvas.Canvas, cover_path: Path, book: dict) -> None:
     pdf.saveState()
     pdf.setFillAlpha(0.9)
     pdf.setFillColor(PAPER)
-    pdf.roundRect(panel_x, panel_y, panel_width, panel_height, 2.5 * mm,
-                  fill=1, stroke=0)
+    pdf.rect(panel_x, panel_y, panel_width, panel_height, fill=1, stroke=0)
     pdf.restoreState()
 
     title = Paragraph(
@@ -219,15 +219,15 @@ def draw_cover(pdf: canvas.Canvas, cover_path: Path, book: dict) -> None:
         pdf.saveState()
         pdf.setFillAlpha(0.72)
         pdf.setFillColor(INK)
-        pdf.roundRect(17 * mm, band_y, credit_width, credit_height + 4 * mm,
-                      1.5 * mm, fill=1, stroke=0)
+        pdf.rect(17 * mm, band_y, credit_width, credit_height + 4 * mm,
+                 fill=1, stroke=0)
         pdf.restoreState()
         credit_block.drawOn(pdf, 17 * mm, band_y + 2 * mm)
 
 
 def draw_copyright_page(pdf: canvas.Canvas, book: dict) -> None:
     draw_page_background(pdf)
-    accent = colors.HexColor(book.get("themeColor", "#bd563e"))
+    accent = BRICK
     pdf.setFillColor(accent)
     pdf.circle(PAGE_WIDTH / 2, PAGE_HEIGHT - 43 * mm, 10 * mm, fill=1, stroke=0)
     pdf.setFillColor(colors.white)
@@ -259,8 +259,8 @@ def draw_blank_page(pdf: canvas.Canvas) -> None:
 
 
 def draw_back_cover(pdf: canvas.Canvas, book: dict) -> None:
-    accent = colors.HexColor(book.get("themeColor", "#bd563e"))
-    pdf.setFillColor(LIBRARY_BLUE)
+    accent = BRICK
+    pdf.setFillColor(PETROL)
     pdf.rect(0, 0, PAGE_WIDTH, PAGE_HEIGHT, fill=1, stroke=0)
     pdf.setFillColor(accent)
     pdf.circle(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 + 14 * mm, 18 * mm, fill=1, stroke=0)
@@ -298,8 +298,7 @@ def create_sequential_pdf(book_dir: Path, book: dict, output_path: Path,
             image_path = prepare_print_image(book_dir / page["image"], image_cache)
             draw_image_page(pdf, image_path, number, sequence_page)
         else:
-            draw_text_page(pdf, page, colors.HexColor(book.get("themeColor", "#bd563e")),
-                           number, sequence_page)
+            draw_text_page(pdf, page, BRICK, number, sequence_page)
         pdf.showPage()
 
     current_count = 2 + len(story_pages)

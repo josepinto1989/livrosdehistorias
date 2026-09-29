@@ -1,6 +1,8 @@
 # Livros para impressão
 
-Esta pasta contém uma versão em PDF de cada história, preparada como livreto A5 em folhas A4.
+Esta pasta contém a edição visual atual de cada história em PDF, preparada como livreto A5 em folhas A4.
+
+Os PDFs da primeira edição visual estão preservados em `v1/impressao`.
 
 ## Como imprimir
 

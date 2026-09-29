@@ -13,6 +13,22 @@ Antes de mexer nos ficheiros, reúne:
 
 Cada imagem deve mostrar apenas aquilo que o texto imediatamente anterior já contou. No telemóvel aparece primeiro o texto e depois a imagem; no computador os dois aparecem lado a lado.
 
+### Estilo visual obrigatório
+
+Todas as novas ilustrações devem seguir a linguagem visual da edição atual:
+
+- ilustração gráfica de inspiração vanguardista para livro infantil;
+- formas geométricas assimétricas, recortes angulares, stencil e tinta preta de pincel seco;
+- áreas de cor chapada, sobretudo preto-carvão, branco quente de papel, vermelho-tijolo e azul-petróleo apagado;
+- papel com grão visível, falhas de tinta, bordas irregulares e pequenos desencontros entre cores;
+- espaços vazios e simplificações ousadas, sem fundos excessivamente carregados;
+- sem gradientes, brilho, volume 3D, pelo renderizado, olhos exagerados, acabamento digital perfeito ou estética de animação comercial;
+- sem texto, números ou marcas de água dentro das imagens.
+
+O Joaquim deve ser sempre reconhecível como husky de peluche: corpo cinzento-escuro ou preto e branco, olhos azuis pequenos, focinho branco, nariz preto, orelhas triangulares, forma ligeiramente irregular de brinquedo de tecido e algumas costuras visíveis. As outras personagens devem conservar os seus traços identificáveis e ser redesenhadas na mesma linguagem.
+
+Usa as imagens das histórias já publicadas como referência de estilo e de identidade. Usa a ilustração anterior da mesma página apenas como referência do conteúdo da cena: mantém personagens, ações, objetos, local e acontecimento, sem importar elementos de outras histórias.
+
 ## 2. Criar a pasta do livro
 
 Dentro de `books`, copia a pasta de uma história existente e dá-lhe um identificador simples, sem espaços nem acentos. Por exemplo:
@@ -134,6 +150,9 @@ https://josepinto1989.github.io/livrosdehistorias/
 - [ ] A capa é vertical e as cenas são horizontais.
 - [ ] Os nomes das imagens no JSON correspondem aos ficheiros.
 - [ ] Cada texto aparece antes da imagem que o ilustra.
+- [ ] Todas as ilustrações seguem o estilo visual fixo da coleção.
+- [ ] O Joaquim e os amigos mantêm os seus traços identificáveis.
+- [ ] As imagens não contêm texto, números ou marcas de água.
 - [ ] `books/books.json` contém a nova história.
 - [ ] As versões de cache foram atualizadas.
 - [ ] O livro foi testado no computador e no telemóvel.

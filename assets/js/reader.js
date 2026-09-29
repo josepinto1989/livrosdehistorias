@@ -1,6 +1,6 @@
 
 const params = new URLSearchParams(window.location.search);
-const assetVersion = "20260929-2";
+const assetVersion = "20260929-4";
 const requestedBookId = params.get("book") || "cao-joaquim-submarino";
 const bookId = /^[a-z0-9-]+$/.test(requestedBookId) ? requestedBookId : "cao-joaquim-submarino";
 
@@ -44,7 +44,7 @@ function appendText(parent, tagName, text, className) {
 
 function makeImage(src, alt) {
   const image = document.createElement("img");
-  image.src = `books/${bookId}/${src}`;
+  image.src = `books/${bookId}/${src}?v=${assetVersion}`;
   image.alt = alt || "";
   image.decoding = "async";
   image.draggable = false;
@@ -109,7 +109,7 @@ function preloadAround() {
     const page = pages[currentIndex + offset];
     if (page?.image) {
       const image = new Image();
-      image.src = `books/${bookId}/${page.image}`;
+      image.src = `books/${bookId}/${page.image}?v=${assetVersion}`;
     }
   }
 }

@@ -4,7 +4,11 @@ Uma coleção digital de histórias infantis ilustradas, inventadas em família 
 
 As aventuras acompanham o Cão Joaquim e os seus amigos por lugares onde a curiosidade, o humor e a imaginação transformam cada passeio numa história para ler em conjunto.
 
+A edição atual usa uma linguagem gráfica inspirada em livros infantis vanguardistas: formas geométricas assimétricas, tinta de pincel seco, papel com grão e uma paleta de preto-carvão, branco quente, vermelho-tijolo e azul-petróleo.
+
 **[Abrir a biblioteca ilustrada](https://josepinto1989.github.io/livrosdehistorias/)**
+
+A primeira edição visual permanece preservada no **[Arquivo V1](https://josepinto1989.github.io/livrosdehistorias/v1/)**.
 
 ## Autoria
 
