@@ -1,0 +1,163 @@
+{
+  "id": "cao-joaquim-centro-terra",
+  "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
+  "title": "O Cão Joaquim no Centro da Terra",
+  "subtitle": "Uma aventura entre dinossauros",
+  "coverTitle": "O Cão Joaquim",
+  "coverSubtitle": "no Centro da Terra",
+  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "themeColor": "#2f7d4a",
+  "pages": [
+    {
+      "type": "cover",
+      "image": "images/cover.webp",
+      "alt": "Capa de O Cão Joaquim no Centro da Terra"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Era uma vez um cão chamado Joaquim.",
+        "Certa manhã, acordou com uma ideia maior do que todas as outras:",
+        "— Hoje vou ao centro da Terra!",
+        "Correu até à casa do seu melhor amigo e bateu à porta.",
+        "TRUZ, TRUZ!",
+        "— GATO ALBERTOOOOO!",
+        "Alberto apareceu ainda cheio de sono.",
+        "— Joaquim, tu és maluco… Mas eu vou contigo!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/01-porta-alberto.webp",
+      "alt": "O Cão Joaquim convida o sonolento Gato Alberto para ir ao centro da Terra"
+    },
+    {
+      "type": "sound",
+      "sound": "GILBERTO!",
+      "text": [
+        "Alberto lembrou-se de que ainda faltava alguém.",
+        "— Para uma viagem destas precisamos de um amigo que saiba voar!",
+        "Os dois olharam para o céu e gritaram:",
+        "— PAPAGAIO GILBERTOOOOO!",
+        "Gilberto desceu a bater as asas.",
+        "— Vocês falam tanto que eu ouvi tudo lá de cima. Vamos a isso!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/02-chegada-gilberto.webp",
+      "alt": "O Papagaio Gilberto desce do céu para se juntar a Joaquim e Alberto"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Os três amigos encontraram um buraco muito, muito fundo.",
+        "Lá em baixo não se via nada.",
+        "Joaquim respirou fundo e começou a contar:",
+        "— Um… dois… três!",
+        "E os três saltaram ao mesmo tempo.",
+        "Desceram, desceram e desceram, enquanto a luz do céu ficava cada vez mais pequena."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/03-descida.webp",
+      "alt": "Joaquim, Alberto e Gilberto descem por um enorme buraco em direção ao centro da Terra"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Quando chegaram ao fundo, esperavam encontrar uma gruta escura.",
+        "Mas diante deles havia uma selva gigantesca, cheia de fetos, árvores enormes e plantas que brilhavam.",
+        "— Uau! — disse Joaquim.",
+        "O chão tremia debaixo das patas e, entre as folhas, ouviam-se passos pesados.",
+        "Alguma coisa muito grande aproximava-se."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/04-selva-subterranea.webp",
+      "alt": "Os três amigos descobrem uma enorme selva escondida no centro da Terra"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Das plantas saiu um dinossauro enorme, com três chifres e uma gola à volta da cabeça.",
+        "Era um Triceratops.",
+        "Alberto escondeu-se atrás de Joaquim, mas o dinossauro só estava a comer folhas.",
+        "Levantou a cabeça e olhou para os visitantes com curiosidade.",
+        "— Acho que ele é nosso amigo — sussurrou Gilberto."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/05-triceratops.webp",
+      "alt": "Joaquim, Alberto e Gilberto conhecem um Triceratops tranquilo que come folhas"
+    },
+    {
+      "type": "sound",
+      "sound": "ROOOAAAR!",
+      "text": [
+        "De repente, um rugido atravessou toda a selva.",
+        "As folhas abanaram e as árvores estremeceram.",
+        "Um Tiranossauro Rex apareceu entre os troncos, abriu a boca enorme e correu na direção dos amigos.",
+        "BOM! BOM! BOM!",
+        "Cada passo fazia o chão saltar.",
+        "— Fujam! — gritou Joaquim."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/06-trex.webp",
+      "alt": "Um Tiranossauro Rex persegue os três amigos pela selva subterrânea"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Joaquim, Alberto e Gilberto esconderam-se atrás de uma árvore muito larga.",
+        "— Como vamos voltar para casa? — perguntou Alberto. — O buraco é alto demais!",
+        "Gilberto espreitou por cima dos ramos e viu um vulcão ao longe.",
+        "— Já tenho uma ideia!",
+        "Os amigos esperaram que o T-Rex olhasse para o outro lado e correram em bicos de pés até ao vulcão."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/07-plano-vulcao.webp",
+      "alt": "Os três amigos escondem-se do T-Rex e observam um vulcão ao longe"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Junto ao vulcão encontraram um pequeno barco de metal.",
+        "Entraram depressa e Joaquim carregou no único botão que havia.",
+        "CLAC! O barco fechou-se como uma cápsula.",
+        "O T-Rex chegou mesmo a tempo de abrir a boca, mas o barco disparou pelo vulcão acima.",
+        "Passou pela lava sem se queimar e saiu pelo topo com um enorme…",
+        "PUM!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/08-fuga-vulcao.webp",
+      "alt": "O barco de metal dos amigos sobe pelo vulcão enquanto o T-Rex tenta alcançá-lo"
+    },
+    {
+      "type": "ending",
+      "text": [
+        "Já cá fora, Gilberto sacudiu as penas.",
+        "— Eu sei voar, mas isto foi mesmo radical!",
+        "Os três amigos voltaram para casa com o pelo e as penas um bocadinho chamuscados, mas muito felizes.",
+        "Joaquim deitou-se e lembrou-se da selva, dos dinossauros e do barco de metal.",
+        "Tinha sido mais uma aventura inesquecível.",
+        "Mas agora estava na hora de dormir."
+      ],
+      "end": "Fim."
+    },
+    {
+      "type": "image",
+      "image": "images/09-sonho-centro-terra.webp",
+      "alt": "O Cão Joaquim dorme descansado depois da aventura no centro da Terra"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "cao-joaquim-paraquedas",
+  "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
+  "title": "O Cão Joaquim e o Salto de Paraquedas",
+  "subtitle": "Uma aventura nas alturas",
+  "coverTitle": "O Cão Joaquim",
+  "coverSubtitle": "e o Salto de Paraquedas",
+  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "themeColor": "#e05b38",
+  "pages": [
+    {
+      "type": "cover",
+      "image": "images/cover.webp",
+      "alt": "Capa de O Cão Joaquim e o Salto de Paraquedas"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Era uma vez um cão chamado Joaquim.",
+        "Certa manhã, estava em casa a apanhar uma seca muito grande.",
+        "Queria fazer uma coisa muito fixe. Uma coisa que nunca tivesse feito.",
+        "De repente, teve uma ideia:",
+        "— Já sei! Vou saltar de paraquedas!",
+        "Mas uma aventura daquelas não tinha graça nenhuma sozinho."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/01-ideia-paraquedas.webp",
+      "alt": "O Cão Joaquim tem a ideia de saltar de paraquedas"
+    },
+    {
+      "type": "sound",
+      "sound": "ALBERTO!",
+      "text": [
+        "Joaquim correu até à casa do seu melhor amigo e bateu à porta.",
+        "TRUZ, TRUZ! Ninguém respondeu.",
+        "— GATO ALBERTOOOOO!",
+        "Alberto abriu a porta com ar desconfiado.",
+        "— Joaquim, estás sempre a bater à minha porta. O que queres agora?",
+        "— Quero saltar de paraquedas! Vens comigo?"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/02-porta-alberto.webp",
+      "alt": "Joaquim convida o Gato Alberto para saltar de paraquedas"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Alberto levantou o queixo e respondeu:",
+        "— Eu sou um gato. Tenho sete vidas e aterro sempre de pé. Nem preciso de paraquedas!",
+        "— Tu és doido, Alberto. Mas vens?",
+        "— Vou!",
+        "Para os ajudar, os dois chamaram o amigo que melhor conhecia o céu:",
+        "— PAPAGAIO GILBERTOOOOO!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/03-chegada-gilberto.webp",
+      "alt": "O Papagaio Gilberto chega para ajudar Joaquim e Alberto"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Os três amigos foram até ao avião e subiram a bordo.",
+        "O avião levantou voo e subiu muito, muito alto, por cima das nuvens.",
+        "Joaquim apertou bem o paraquedas.",
+        "— Alberto, é melhor vestires o teu.",
+        "— Não, não! Eu sou um gato. Consigo saltar muito alto e sobreviver!",
+        "Gilberto arregalou os olhos.",
+        "— Ai, Alberto… tu és mesmo maluco."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/04-aviao.webp",
+      "alt": "Os três amigos voam acima das nuvens dentro de um avião"
+    },
+    {
+      "type": "sound",
+      "sound": "AAAAAAH!",
+      "text": [
+        "Joaquim abriu a porta do avião e saltou.",
+        "Alberto saltou logo atrás dele, muito confiante.",
+        "Mas, quando viu o chão lá em baixo, percebeu que talvez tivesse cometido um pequeno erro.",
+        "— Afinal preciso de paraquedas! Dêem-me um paraquedas!",
+        "Joaquim puxou a corda e o seu paraquedas abriu-se no céu.",
+        "Alberto continuou a cair cada vez mais depressa."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/05-salto.webp",
+      "alt": "Joaquim desce de paraquedas enquanto Alberto cai sem paraquedas"
+    },
+    {
+      "type": "text",
+      "text": [
+        "— PAPAGAIO GILBERTO! APANHA O GATO ALBERTO! — gritou Joaquim.",
+        "Gilberto fechou as asas, mergulhou pelo céu e agarrou Alberto mesmo a tempo.",
+        "Depois bateu as asas com toda a força para o segurar.",
+        "— Alberto, andas a comer demais! Estás muito pesado!",
+        "O gato sorriu, pendurado nas patas do papagaio.",
+        "— Vês? Eu disse que ia sobreviver."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/06-resgate.webp",
+      "alt": "O Papagaio Gilberto salva o Gato Alberto durante a queda"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Enquanto os três desciam pelo céu, apareceu uma borboleta muito especial.",
+        "Tinha asas vermelhas e douradas e um bigode enorme, todo enrolado nas pontas.",
+        "— Eu sou a Borboleta Pedro! O que estão aqui a fazer?",
+        "Quando ouviu a história do salto, Pedro ficou espantado.",
+        "— Vocês são mesmo malucos! Mas já que estão todos a voar, vou convosco."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/07-borboleta-pedro.webp",
+      "alt": "Os amigos conhecem a Borboleta Pedro, de asas vermelhas e douradas e grande bigode"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Pouco depois, Joaquim pousou suavemente com o paraquedas.",
+        "Gilberto deixou Alberto no chão e caiu de costas na relva, exausto.",
+        "— Ufa! O Gato Alberto pesa muito!",
+        "Alberto sacudiu o pelo e levantou a cauda.",
+        "— Estão a ver? Saltei sem paraquedas e sobrevivi!",
+        "Joaquim e Pedro olharam um para o outro e desataram a rir."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/08-aterragem.webp",
+      "alt": "Os amigos aterram em segurança e riem-se na relva"
+    },
+    {
+      "type": "ending",
+      "text": [
+        "Depois de uma aventura tão alta, os amigos voltaram para casa muito cansados.",
+        "Joaquim deitou-se e puxou o cobertor até ao focinho.",
+        "À janela apareceram Alberto, Gilberto e a Borboleta Pedro.",
+        "— Boa noite, Gato Alberto!",
+        "— Boa noite, Papagaio Gilberto!",
+        "— Boa noite, Borboleta Pedro!",
+        "Joaquim fechou os olhos a pensar no céu, nas nuvens e no seu paraquedas."
+      ],
+      "end": "Fim."
+    },
+    {
+      "type": "image",
+      "image": "images/09-boa-noite.webp",
+      "alt": "Joaquim adormece enquanto os amigos lhe desejam boa noite à janela"
+    }
+  ]
+}

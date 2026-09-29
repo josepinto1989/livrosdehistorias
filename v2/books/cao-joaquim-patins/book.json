@@ -1,0 +1,160 @@
+{
+  "id": "cao-joaquim-patins",
+  "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
+  "title": "O Cão Joaquim e os Patins",
+  "subtitle": "Uma aventura sobre rodas",
+  "coverTitle": "O Cão Joaquim",
+  "coverSubtitle": "e os Patins",
+  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "themeColor": "#de5b3d",
+  "pages": [
+    {
+      "type": "cover",
+      "image": "images/cover.webp",
+      "alt": "Capa de O Cão Joaquim e os Patins"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Era uma vez um cão chamado Joaquim.",
+        "Certa manhã, acordou com vontade de fazer uma coisa diferente.",
+        "Foi procurar entre os seus brinquedos e encontrou uns patins azuis, ainda quase novos.",
+        "Colocou o capacete, as joelheiras e as cotoveleiras.",
+        "— Hoje vou aprender a andar de patins!",
+        "Mas aprender sozinho não tinha graça nenhuma."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/01-ideia-patins.webp",
+      "alt": "Joaquim encontra os patins e coloca o equipamento de proteção"
+    },
+    {
+      "type": "sound",
+      "sound": "ALBERTO!",
+      "text": [
+        "Joaquim levou os patins debaixo do braço e foi até à casa do amigo.",
+        "Bateu à porta e chamou:",
+        "— GATO ALBERTOOOOO!",
+        "Alberto abriu a porta e olhou para os patins.",
+        "— Queres vir comigo ao parque?",
+        "— Está bem, mas eu levo o meu skate."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/02-porta-alberto.webp",
+      "alt": "Joaquim convida Alberto para ir ao parque andar sobre rodas"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Antes de partirem, lembraram-se do amigo que nunca perdia uma aventura.",
+        "— PAPAGAIO GILBERTOOOOO!",
+        "Gilberto apareceu pouco depois numa trotinete vermelha.",
+        "— Joaquim vai de patins, Alberto vai de skate e eu vou de trotinete!",
+        "Com os capacetes bem apertados, os três seguiram juntos para o parque."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/03-caminho-parque.webp",
+      "alt": "Joaquim, Alberto e Gilberto seguem juntos para o parque"
+    },
+    {
+      "type": "sound",
+      "sound": "PUM!",
+      "text": [
+        "No parque, Joaquim subiu até ao alto de uma rampa.",
+        "— Tu sabes andar de patins? — perguntou Alberto.",
+        "— Ainda não, mas hei de aprender!",
+        "Joaquim empurrou-se para a frente. As rodas aceleraram, as pernas abanaram e os braços rodaram no ar.",
+        "PUM! Foi parar junto a um poste, protegido pelo capacete e pelas joelheiras.",
+        "— Estou bem! — disse, enquanto se levantava."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/04-primeira-descida.webp",
+      "alt": "Joaquim perde o equilíbrio na primeira descida da rampa"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Alberto saltou para o skate, desceu a rampa e fez uma pirueta como um profissional.",
+        "Gilberto também quis mostrar o que sabia fazer.",
+        "Agarrou a trotinete, bateu as asas e começou a voar por cima da pista.",
+        "— Isso é batota! — gritaram Joaquim e Alberto. — A trotinete tem de andar no chão!",
+        "Gilberto aterrou a rir."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/05-manobras.webp",
+      "alt": "Alberto faz uma manobra de skate enquanto Gilberto voa com a trotinete"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Joaquim respirou fundo e tentou outra vez.",
+        "Esticou uma perna, depois a outra… e caiu.",
+        "Levantou-se, voltou à rampa… e caiu outra vez.",
+        "Sempre que os patins fugiam para um lado, Joaquim punha-se de pé e recomeçava.",
+        "— Força, Joaquim! Força! — gritavam os amigos."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/06-tentar-outra-vez.webp",
+      "alt": "Joaquim cai de patins e prepara-se para tentar novamente"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Pouco a pouco, as pernas deixaram de abanar.",
+        "Joaquim começou a deslizar devagarinho, primeiro em linha reta e depois a fazer curvas.",
+        "Quando conseguiu descer uma rampa sem cair, Alberto e Gilberto festejaram.",
+        "— Estás a ver? — disse Alberto. — Era preciso ter paciência.",
+        "— E quando caímos, levantamo-nos e tentamos outra vez — respondeu Joaquim."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/07-aprendeu.webp",
+      "alt": "Joaquim consegue finalmente andar de patins enquanto os amigos festejam"
+    },
+    {
+      "type": "sound",
+      "sound": "PARTIDA!",
+      "text": [
+        "O céu começou a ficar mais escuro e chegou a hora de voltar para casa.",
+        "Alberto teve uma última ideia:",
+        "— Vamos fazer uma corrida para ver quem chega primeiro!",
+        "Os três alinharam-se à saída do parque: Joaquim nos patins, Alberto no skate e Gilberto na trotinete.",
+        "— Um… dois… três… PARTIDA!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/08-partida.webp",
+      "alt": "Os três amigos alinham-se para a corrida de regresso a casa"
+    },
+    {
+      "type": "ending",
+      "text": [
+        "Alberto avançou muito depressa e Joaquim seguiu logo atrás.",
+        "Gilberto bateu as asas, levantou voo com a trotinete e passou por cima dos dois.",
+        "— Assim é batota! A trotinete tem de andar no chão!",
+        "Gilberto riu, desceu e voltou para junto dos amigos.",
+        "Os três fizeram os últimos metros lado a lado e chegaram juntos a casa.",
+        "Depois de tantas voltas, quedas e gargalhadas, guardaram as rodas e foram dormir."
+      ],
+      "end": "Fim."
+    },
+    {
+      "type": "image",
+      "image": "images/09-chegada-casa.webp",
+      "alt": "Joaquim, Alberto e Gilberto terminam a corrida juntos ao anoitecer"
+    }
+  ]
+}
