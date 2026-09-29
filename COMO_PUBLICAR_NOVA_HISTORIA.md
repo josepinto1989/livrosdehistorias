@@ -60,7 +60,7 @@ A ordem recomendada é sempre:
 capa → texto → imagem → texto → imagem → ... → final → imagem final
 ```
 
-Usa páginas do tipo `text` para a narração, `sound` apenas para sons ou gritos que façam parte da história e `ending` para o final. Evita títulos em cada página: a narração deve continuar naturalmente.
+Usa páginas do tipo `text` para toda a narração, incluindo sons e gritos, e `ending` para o final. Não uses os campos `heading` ou `sound`: a narração deve continuar naturalmente, sem títulos de página nem palavras gigantes em maiúsculas. Escreve as onomatopeias em capitalização normal, por exemplo `Pum!` em vez de `PUM!`.
 
 Confirma que cada vírgula, aspas e parêntesis do JSON está correto. Um erro no JSON impede o livro de abrir.
 
@@ -150,6 +150,8 @@ https://josepinto1989.github.io/livrosdehistorias/
 - [ ] A capa é vertical e as cenas são horizontais.
 - [ ] Os nomes das imagens no JSON correspondem aos ficheiros.
 - [ ] Cada texto aparece antes da imagem que o ilustra.
+- [ ] Não existem títulos de página, campos `heading` ou campos `sound`.
+- [ ] Não existem palavras ou falas inteiras desnecessariamente em maiúsculas.
 - [ ] Todas as ilustrações seguem o estilo visual fixo da coleção.
 - [ ] O Joaquim e os amigos mantêm os seus traços identificáveis.
 - [ ] As imagens não contêm texto, números ou marcas de água.

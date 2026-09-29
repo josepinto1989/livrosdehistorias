@@ -30,12 +30,11 @@
       "alt": "O Cão Joaquim tem a ideia de saltar de paraquedas"
     },
     {
-      "type": "sound",
-      "sound": "ALBERTO!",
+      "type": "text",
       "text": [
         "Joaquim correu até à casa do seu melhor amigo e bateu à porta.",
-        "TRUZ, TRUZ! Ninguém respondeu.",
-        "— GATO ALBERTOOOOO!",
+        "Truz, truz! Ninguém respondeu.",
+        "— Gato Albertooooo!",
         "Alberto abriu a porta com ar desconfiado.",
         "— Joaquim, estás sempre a bater à minha porta. O que queres agora?",
         "— Quero saltar de paraquedas! Vens comigo?"
@@ -54,7 +53,7 @@
         "— Tu és doido, Alberto. Mas vens?",
         "— Vou!",
         "Para os ajudar, os dois chamaram o amigo que melhor conhecia o céu:",
-        "— PAPAGAIO GILBERTOOOOO!"
+        "— Papagaio Gilbertooooo!"
       ]
     },
     {
@@ -80,8 +79,7 @@
       "alt": "Os três amigos voam acima das nuvens dentro de um avião"
     },
     {
-      "type": "sound",
-      "sound": "AAAAAAH!",
+      "type": "text",
       "text": [
         "Joaquim abriu a porta do avião e saltou.",
         "Alberto saltou logo atrás dele, muito confiante.",
@@ -99,7 +97,7 @@
     {
       "type": "text",
       "text": [
-        "— PAPAGAIO GILBERTO! APANHA O GATO ALBERTO! — gritou Joaquim.",
+        "— Papagaio Gilberto! Apanha o Gato Alberto! — gritou Joaquim.",
         "Gilberto fechou as asas, mergulhou pelo céu e agarrou Alberto mesmo a tempo.",
         "Depois bateu as asas com toda a força para o segurar.",
         "— Alberto, andas a comer demais! Estás muito pesado!",

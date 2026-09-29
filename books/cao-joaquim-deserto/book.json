@@ -20,8 +20,8 @@
         "Certo dia, acordou com vontade de conhecer um lugar cheio de areia, sol e mistérios.",
         "— Hoje vou ao deserto!",
         "Mas uma aventura tão grande não podia ser feita sozinho. Por isso, correu até à casa do seu melhor amigo e bateu à porta.",
-        "TRUZ, TRUZ! Ninguém respondeu.",
-        "— GATO ALBERTOOOOO!",
+        "Truz, truz! Ninguém respondeu.",
+        "— Gato Albertooooo!",
         "A porta abriu-se devagar e apareceu Alberto, ainda cheio de sono."
       ]
     },
@@ -31,14 +31,13 @@
       "alt": "O Cão Joaquim bate à porta do Gato Alberto"
     },
     {
-      "type": "sound",
-      "sound": "GILBERTO!",
+      "type": "text",
       "text": [
         "— Queres vir comigo ao deserto? — perguntou Joaquim.",
         "Alberto pensou um bocadinho e levantou uma pata.",
         "— Quero, mas ainda falta alguém.",
         "Os dois encheram os pulmões e gritaram:",
-        "— PAPAGAIO GILBERTOOOOO!",
+        "— Papagaio Gilbertooooo!",
         "Gilberto desceu do céu num instante, pronto para a aventura."
       ]
     },

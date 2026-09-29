@@ -29,12 +29,11 @@
       "alt": "O Cão Joaquim encontra uma pistola mágica de encolher numa caixa antiga"
     },
     {
-      "type": "sound",
-      "sound": "TRUZ! TRUZ!",
+      "type": "text",
       "text": [
         "Joaquim correu até à casa do Gato Alberto e bateu à porta.",
         "Ninguém respondeu, por isso chamou ainda mais alto:",
-        "— GATO ALBERTOOOOO!",
+        "— Gato Albertooooo!",
         "Alberto abriu a porta e apontou para a campainha.",
         "— Joaquim, aquele botão serve para tocar. Não precisas de acordar a rua inteira!",
         "— Mas assim é muito mais divertido — respondeu Joaquim."
@@ -53,7 +52,7 @@
         "— Faz-nos ficar tão pequenos que podemos explorar lugares novos!",
         "Alberto achou a ideia maluca, como quase todas as ideias de Joaquim, mas aceitou.",
         "Depois chamaram o amigo que nunca perdia uma aventura:",
-        "— PAPAGAIO GILBERTOOOOO!"
+        "— Papagaio Gilbertooooo!"
       ]
     },
     {
@@ -68,7 +67,7 @@
         "— É daqui que vêm aquelas formigas todas! — resmungou o gato. — Estão sempre a entrar em minha casa.",
         "— Então vamos falar com a rainha — disse Joaquim.",
         "Apontou a pistola primeiro a Alberto, depois a Gilberto e, por fim, a si próprio.",
-        "ZAP! ZAP! ZAP!",
+        "Zap! Zap! Zap!",
         "Num instante, os três ficaram mais pequenos do que uma formiga."
       ]
     },
@@ -138,14 +137,13 @@
       "alt": "Alberto aceita o acordo da rainha diante das formigas e dos amigos"
     },
     {
-      "type": "sound",
-      "sound": "PLIM!",
+      "type": "text",
       "text": [
         "Já cá fora, Joaquim parou de repente.",
         "— Esqueci-me de descobrir como voltamos ao tamanho normal!",
         "Os três olharam uns para os outros. Até uma mosca parecia gigantesca ao lado deles.",
         "Nesse momento começou a chover.",
-        "Uma gota enorme caiu em cima de Joaquim e… PLIM! Voltou ao tamanho normal.",
+        "Uma gota enorme caiu em cima de Joaquim e… Plim! Voltou ao tamanho normal.",
         "— Já percebi! A água faz-nos crescer!"
       ]
     },
@@ -160,7 +158,7 @@
         "Gilberto deixou-se molhar e também cresceu. Mas Alberto fugia de cada gota.",
         "— Eu não gosto de água!",
         "Joaquim pegou na mangueira e apontou-a ao amigo.",
-        "CHUÁÁÁ! Alberto voltou ao tamanho normal, encharcado da cabeça às patas.",
+        "Chuááá! Alberto voltou ao tamanho normal, encharcado da cabeça às patas.",
         "— Joaquim, molhaste-me todo!",
         "— Preferias ficar pequeno para sempre?",
         "Alberto pensou um bocadinho e foi para casa secar o pelo. Depois de tanta confusão, todos foram dormir."

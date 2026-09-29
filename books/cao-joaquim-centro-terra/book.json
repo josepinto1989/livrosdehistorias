@@ -20,8 +20,8 @@
         "Certa manhã, acordou com uma ideia maior do que todas as outras:",
         "— Hoje vou ao centro da Terra!",
         "Correu até à casa do seu melhor amigo e bateu à porta.",
-        "TRUZ, TRUZ!",
-        "— GATO ALBERTOOOOO!",
+        "Truz, truz!",
+        "— Gato Albertooooo!",
         "Alberto apareceu ainda cheio de sono.",
         "— Joaquim, tu és maluco… Mas eu vou contigo!"
       ]
@@ -32,13 +32,12 @@
       "alt": "O Cão Joaquim convida o sonolento Gato Alberto para ir ao centro da Terra"
     },
     {
-      "type": "sound",
-      "sound": "GILBERTO!",
+      "type": "text",
       "text": [
         "Alberto lembrou-se de que ainda faltava alguém.",
         "— Para uma viagem destas precisamos de um amigo que saiba voar!",
         "Os dois olharam para o céu e gritaram:",
-        "— PAPAGAIO GILBERTOOOOO!",
+        "— Papagaio Gilbertooooo!",
         "Gilberto desceu a bater as asas.",
         "— Vocês falam tanto que eu ouvi tudo lá de cima. Vamos a isso!"
       ]
@@ -95,13 +94,12 @@
       "alt": "Joaquim, Alberto e Gilberto conhecem um Triceratops tranquilo que come folhas"
     },
     {
-      "type": "sound",
-      "sound": "ROOOAAAR!",
+      "type": "text",
       "text": [
         "De repente, um rugido atravessou toda a selva.",
         "As folhas abanaram e as árvores estremeceram.",
         "Um Tiranossauro Rex apareceu entre os troncos, abriu a boca enorme e correu na direção dos amigos.",
-        "BOM! BOM! BOM!",
+        "Bom! Bom! Bom!",
         "Cada passo fazia o chão saltar.",
         "— Fujam! — gritou Joaquim."
       ]
@@ -131,10 +129,10 @@
       "text": [
         "Junto ao vulcão encontraram um pequeno barco de metal.",
         "Entraram depressa e Joaquim carregou no único botão que havia.",
-        "CLAC! O barco fechou-se como uma cápsula.",
+        "Clac! O barco fechou-se como uma cápsula.",
         "O T-Rex chegou mesmo a tempo de abrir a boca, mas o barco disparou pelo vulcão acima.",
         "Passou pela lava sem se queimar e saiu pelo topo com um enorme…",
-        "PUM!"
+        "Pum!"
       ]
     },
     {

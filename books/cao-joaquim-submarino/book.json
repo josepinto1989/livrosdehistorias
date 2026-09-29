@@ -36,7 +36,7 @@
         "Pouco depois apareceu o Gato Alberto, ainda despenteado e com uma meia presa na cauda.",
         "— Vamos passear até ao fundo do mar! — anunciou Joaquim.",
         "Os dois encheram os pulmões e gritaram:",
-        "— PAPAGAIO GILBERTOOOOO!"
+        "— Papagaio Gilbertooooo!"
       ]
     },
     {
@@ -61,15 +61,14 @@
       "alt": "Os três amigos mergulham no submarino arco-íris"
     },
     {
-      "type": "sound",
-      "sound": "PUM!",
+      "type": "text",
       "text": [
         "O Cão Joaquim estava tão distraído a olhar para os peixes que não viu uma enorme sombra à sua frente.",
         "— Joaquim… tu estás a olhar para onde vais?",
         "— Mais ou menos.",
-        "— JOAQUIM!",
+        "— Joaquim!",
         "Da escuridão apareceu uma baleia-azul gigantesca.",
-        "— QUEM É QUE ME DEU UM MURRO?"
+        "— Quem é que me deu um murro?"
       ]
     },
     {
@@ -96,11 +95,11 @@
       "type": "text",
       "text": [
         "Pouco depois, viram uma forma achatada a deslizar sobre a areia.",
-        "— RAIA BATATAAAAA!",
+        "— Raia Batataaaaa!",
         "— Olá, meninos! O que fazem aqui ao pé da minha casa?",
         "A Tartaruga Joana apareceu logo ali ao lado, à porta da sua casinha.",
         "Nesse instante, o estômago do Gato Alberto fez:",
-        "GRRRRRRR!",
+        "Grrrrrrr!",
         "— E temos muita fome! — confessou ele."
       ]
     },
@@ -127,11 +126,10 @@
       "alt": "Os amigos comem juntos em casa da Tartaruga Joana"
     },
     {
-      "type": "sound",
-      "sound": "FUUUUUSH!",
+      "type": "text",
       "text": [
         "Alguma coisa passou muito depressa do lado de fora.",
-        "FUUUUUSH!",
+        "Fuuuuush!",
         "— Será um tubarão? — sussurrou Joaquim.",
         "Todos se aproximaram da janela.",
         "E então descobriram o terrível monstro…",

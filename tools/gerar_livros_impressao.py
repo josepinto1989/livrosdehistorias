@@ -120,11 +120,6 @@ def paragraph_style(name: str, font_size: float, *, italic: bool = False,
 
 def build_text_blocks(page: dict, font_size: float, accent) -> list[Paragraph]:
     blocks: list[Paragraph] = []
-    if page["type"] == "sound":
-        sound_style = paragraph_style("sound", font_size * 1.65, bold=True, color=accent,
-                                      leading_factor=1.05)
-        blocks.append(Paragraph(html.escape(page.get("sound", "")), sound_style))
-
     body_style = paragraph_style("body", font_size)
     for line in page.get("text", []):
         blocks.append(Paragraph(html.escape(line), body_style))

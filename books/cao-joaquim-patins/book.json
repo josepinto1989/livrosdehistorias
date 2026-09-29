@@ -30,12 +30,11 @@
       "alt": "Joaquim encontra os patins e coloca o equipamento de proteção"
     },
     {
-      "type": "sound",
-      "sound": "ALBERTO!",
+      "type": "text",
       "text": [
         "Joaquim levou os patins debaixo do braço e foi até à casa do amigo.",
         "Bateu à porta e chamou:",
-        "— GATO ALBERTOOOOO!",
+        "— Gato Albertooooo!",
         "Alberto abriu a porta e olhou para os patins.",
         "— Queres vir comigo ao parque?",
         "— Está bem, mas eu levo o meu skate."
@@ -50,7 +49,7 @@
       "type": "text",
       "text": [
         "Antes de partirem, lembraram-se do amigo que nunca perdia uma aventura.",
-        "— PAPAGAIO GILBERTOOOOO!",
+        "— Papagaio Gilbertooooo!",
         "Gilberto apareceu pouco depois numa trotinete vermelha.",
         "— Joaquim vai de patins, Alberto vai de skate e eu vou de trotinete!",
         "Com os capacetes bem apertados, os três seguiram juntos para o parque."
@@ -62,14 +61,13 @@
       "alt": "Joaquim, Alberto e Gilberto seguem juntos para o parque"
     },
     {
-      "type": "sound",
-      "sound": "PUM!",
+      "type": "text",
       "text": [
         "No parque, Joaquim subiu até ao alto de uma rampa.",
         "— Tu sabes andar de patins? — perguntou Alberto.",
         "— Ainda não, mas hei de aprender!",
         "Joaquim empurrou-se para a frente. As rodas aceleraram, as pernas abanaram e os braços rodaram no ar.",
-        "PUM! Foi parar junto a um poste, protegido pelo capacete e pelas joelheiras.",
+        "Pum! Foi parar junto a um poste, protegido pelo capacete e pelas joelheiras.",
         "— Estou bem! — disse, enquanto se levantava."
       ]
     },
@@ -124,14 +122,13 @@
       "alt": "Joaquim consegue finalmente andar de patins enquanto os amigos festejam"
     },
     {
-      "type": "sound",
-      "sound": "PARTIDA!",
+      "type": "text",
       "text": [
         "O céu começou a ficar mais escuro e chegou a hora de voltar para casa.",
         "Alberto teve uma última ideia:",
         "— Vamos fazer uma corrida para ver quem chega primeiro!",
         "Os três alinharam-se à saída do parque: Joaquim nos patins, Alberto no skate e Gilberto na trotinete.",
-        "— Um… dois… três… PARTIDA!"
+        "— Um… dois… três… Partida!"
       ]
     },
     {
