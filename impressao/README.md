@@ -24,6 +24,7 @@ Para uma gráfica, entrega o PDF tal como está e indica que é um livreto A5 im
 - `o-cao-joaquim-no-centro-da-terra-livreto-a5.pdf`
 - `o-cao-joaquim-e-o-salto-de-paraquedas-livreto-a5.pdf`
 - `o-cao-joaquim-e-as-formigas-livreto-a5.pdf`
+- `o-cao-joaquim-e-os-patins-livreto-a5.pdf`
 
 ## Gerar novamente
 

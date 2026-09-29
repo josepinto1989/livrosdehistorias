@@ -42,6 +42,14 @@
       "cover": "books/cao-joaquim-formigas/images/cover.webp",
       "status": "available",
       "href": "reader.html?book=cao-joaquim-formigas"
+    },
+    {
+      "id": "cao-joaquim-patins",
+      "title": "O Cão Joaquim e os Patins",
+      "subtitle": "Uma aventura sobre rodas",
+      "cover": "books/cao-joaquim-patins/images/cover.webp",
+      "status": "available",
+      "href": "reader.html?book=cao-joaquim-patins"
     }
   ]
 }
