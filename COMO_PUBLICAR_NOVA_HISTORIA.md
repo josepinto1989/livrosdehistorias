@@ -128,6 +128,8 @@ python tools/gerar_livros_impressao.py --book cao-joaquim-floresta
 
 O PDF é criado dentro de `impressao`. Está preparado como livreto A5 em folhas A4, já com as páginas impostas na ordem correta. Confirma visualmente a capa, o início, o meio e o final antes de publicar.
 
+O mesmo comando também atualiza automaticamente `impressao/as-historias-do-cao-joaquim.pdf`, a coletânea **As Histórias do Cão Joaquim**. Todas as histórias com estado `available` em `books/books.json` aparecem no índice e entram no volume pela ordem do catálogo.
+
 As instruções de impressão estão em `impressao/README.md`.
 
 ## 8. Publicar no GitHub
@@ -159,4 +161,5 @@ https://josepinto1989.github.io/livrosdehistorias/
 - [ ] As versões de cache foram atualizadas.
 - [ ] O livro foi testado no computador e no telemóvel.
 - [ ] O PDF de impressão foi gerado e revisto.
+- [ ] A nova história aparece no índice da coletânea `As Histórias do Cão Joaquim`.
 - [ ] As alterações foram enviadas para a branch `main`.

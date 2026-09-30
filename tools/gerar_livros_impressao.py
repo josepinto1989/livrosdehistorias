@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import math
 import tempfile
 import unicodedata
 from pathlib import Path
@@ -25,6 +26,9 @@ from reportlab.lib.utils import ImageReader
 ROOT = Path(__file__).resolve().parents[1]
 BOOKS_DIR = ROOT / "books"
 OUTPUT_DIR = ROOT / "impressao"
+COLLECTION_TITLE = "As Histórias do Cão Joaquim"
+COLLECTION_FILENAME = "as-historias-do-cao-joaquim.pdf"
+CONTENTS_PER_PAGE = 7
 
 PAGE_WIDTH, PAGE_HEIGHT = A5
 SHEET_WIDTH, SHEET_HEIGHT = landscape(A4)
@@ -83,7 +87,8 @@ def fit_image(pdf: canvas.Canvas, path: Path, box: tuple[float, float, float, fl
 
 def prepare_print_image(source: Path, cache_dir: Path) -> Path:
     """Converte WebP para JPEG, que o PDF consegue incorporar sem descomprimir."""
-    target = cache_dir / f"{source.stem}.jpg"
+    book_id = source.parent.parent.name
+    target = cache_dir / f"{book_id}-{source.stem}.jpg"
     if target.exists():
         return target
     with Image.open(source) as image:
@@ -272,6 +277,181 @@ def draw_back_cover(pdf: canvas.Canvas, book: dict) -> None:
                           "Histórias para ler em família")
 
 
+def draw_light_page_number(pdf: canvas.Canvas, number: int) -> None:
+    pdf.setFont("Helvetica", 7)
+    pdf.setFillColor(PAPER)
+    x = 9 * mm if number % 2 == 0 else PAGE_WIDTH - 9 * mm
+    if number % 2:
+        pdf.drawRightString(x, 7 * mm, str(number))
+    else:
+        pdf.drawString(x, 7 * mm, str(number))
+
+
+def draw_collection_cover(pdf: canvas.Canvas, books: list[tuple[Path, dict]],
+                          image_cache: Path) -> None:
+    pdf.setFillColor(PETROL)
+    pdf.rect(0, 0, PAGE_WIDTH, PAGE_HEIGHT, fill=1, stroke=0)
+
+    panel_x = 10 * mm
+    panel_y = PAGE_HEIGHT - 57 * mm
+    panel_width = PAGE_WIDTH - 20 * mm
+    panel_height = 47 * mm
+    pdf.setFillColor(PAPER)
+    pdf.rect(panel_x, panel_y, panel_width, panel_height, fill=1, stroke=0)
+
+    title = Paragraph(
+        "As Histórias do<br/><font size=27>Cão Joaquim</font>",
+        paragraph_style("collection-cover-title", 18, bold=True, leading_factor=1.08),
+    )
+    _, title_height = title.wrap(panel_width - 12 * mm, 32 * mm)
+    title.drawOn(pdf, panel_x + 6 * mm, panel_y + 11 * mm)
+
+    pdf.setFont("Times-Italic", 8.5)
+    pdf.setFillColor(BRICK)
+    pdf.drawCentredString(PAGE_WIDTH / 2, panel_y + 6 * mm,
+                          "Uma coleção de aventuras para ler em família")
+
+    columns = 3
+    rows = max(1, math.ceil(len(books) / columns))
+    gap = 3.5 * mm
+    grid_x = 10 * mm
+    grid_y = 12 * mm
+    grid_width = PAGE_WIDTH - 20 * mm
+    grid_height = panel_y - grid_y - 6 * mm
+    cell_width = (grid_width - gap * (columns - 1)) / columns
+    cell_height = (grid_height - gap * (rows - 1)) / rows
+
+    for index, (book_dir, book) in enumerate(books):
+        row = index // columns
+        column = index % columns
+        x = grid_x + column * (cell_width + gap)
+        y = grid_y + (rows - 1 - row) * (cell_height + gap)
+        cover = prepare_print_image(book_dir / book["pages"][0]["image"], image_cache)
+        fit_image(pdf, cover, (x, y, cell_width, cell_height))
+
+    pdf.setFont("Times-Bold", 7.5)
+    pdf.setFillColor(PAPER)
+    pdf.drawCentredString(PAGE_WIDTH / 2, 6 * mm, "Histórias de Miguel Pinto")
+
+
+def draw_collection_copyright_page(pdf: canvas.Canvas) -> None:
+    draw_page_background(pdf)
+    pdf.setFillColor(BRICK)
+    pdf.circle(PAGE_WIDTH / 2, PAGE_HEIGHT - 43 * mm, 10 * mm, fill=1, stroke=0)
+    pdf.setFillColor(colors.white)
+    pdf.setFont("Times-Bold", 12)
+    pdf.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT - 46 * mm, "CJ")
+
+    title = Paragraph(
+        html.escape(COLLECTION_TITLE),
+        paragraph_style("collection-inside-title", 21, bold=True),
+    )
+    _, title_height = title.wrap(PAGE_WIDTH - 32 * mm, 45 * mm)
+    title.drawOn(pdf, 16 * mm, PAGE_HEIGHT - 72 * mm - title_height)
+
+    details = [
+        "Uma coleção de aventuras para ler em família.",
+        "Histórias, personagens e textos de Miguel Pinto.",
+        "Edição para impressão em formato A5.",
+        "Texto, personagens e edição © 2026 Miguel Pinto.",
+        "Todos os direitos reservados.",
+    ]
+    style = paragraph_style("collection-copyright", 9.5, color=MUTED,
+                            leading_factor=1.35)
+    y = 64 * mm
+    for detail in reversed(details):
+        block = Paragraph(html.escape(detail), style)
+        _, height = block.wrap(PAGE_WIDTH - 34 * mm, 25 * mm)
+        block.drawOn(pdf, 17 * mm, y)
+        y += height + 1.5 * mm
+
+
+def draw_contents_page(pdf: canvas.Canvas, entries: list[dict], page_number: int,
+                       part: int, total_parts: int) -> None:
+    draw_page_background(pdf)
+    pdf.setStrokeColor(LINE)
+    pdf.setLineWidth(0.55)
+    pdf.rect(8 * mm, 9 * mm, PAGE_WIDTH - 16 * mm, PAGE_HEIGHT - 18 * mm,
+             fill=0, stroke=1)
+
+    pdf.setFillColor(BRICK)
+    pdf.setFont("Times-Bold", 11)
+    pdf.drawString(16 * mm, PAGE_HEIGHT - 25 * mm, "As Histórias do Cão Joaquim")
+    pdf.setFillColor(INK)
+    pdf.setFont("Times-Bold", 25)
+    pdf.drawString(16 * mm, PAGE_HEIGHT - 40 * mm, "Índice")
+    if total_parts > 1:
+        pdf.setFont("Times-Italic", 8)
+        pdf.setFillColor(MUTED)
+        pdf.drawRightString(PAGE_WIDTH - 16 * mm, PAGE_HEIGHT - 39 * mm,
+                            f"{part + 1} de {total_parts}")
+
+    y = PAGE_HEIGHT - 59 * mm
+    for entry in entries:
+        number_x = 17 * mm
+        title_x = 29 * mm
+        page_x = PAGE_WIDTH - 17 * mm
+
+        pdf.setFillColor(BRICK)
+        pdf.setFont("Times-Bold", 10)
+        pdf.drawString(number_x, y, f"{entry['number']:02d}")
+
+        title = Paragraph(
+            html.escape(entry["title"]),
+            ParagraphStyle(
+                "contents-title",
+                fontName="Times-Bold",
+                fontSize=10.5,
+                leading=12,
+                textColor=INK,
+                spaceAfter=0,
+            ),
+        )
+        title_width = PAGE_WIDTH - title_x - 31 * mm
+        _, title_height = title.wrap(title_width, 14 * mm)
+        title.drawOn(pdf, title_x, y - title_height + 2.5 * mm)
+
+        pdf.setDash(1, 2)
+        pdf.setStrokeColor(LINE)
+        pdf.line(title_x, y - 4.5 * mm, page_x - 7 * mm, y - 4.5 * mm)
+        pdf.setDash()
+        pdf.setFillColor(INK)
+        pdf.setFont("Times-Bold", 10)
+        pdf.drawRightString(page_x, y, str(entry["page"]))
+
+        subtitle = entry.get("subtitle", "")
+        if subtitle:
+            pdf.setFont("Times-Italic", 8)
+            pdf.setFillColor(MUTED)
+            pdf.drawString(title_x, y - 7 * mm, subtitle)
+
+        pdf.linkAbsolute(
+            entry["title"], entry["bookmark"],
+            Rect=(number_x, y - 10 * mm, page_x, y + 4 * mm),
+            thickness=0,
+        )
+        y -= 20 * mm
+
+    draw_page_number(pdf, page_number, page_number)
+
+
+def draw_collection_back_cover(pdf: canvas.Canvas, story_count: int) -> None:
+    pdf.setFillColor(PETROL)
+    pdf.rect(0, 0, PAGE_WIDTH, PAGE_HEIGHT, fill=1, stroke=0)
+    pdf.setFillColor(BRICK)
+    pdf.circle(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 + 19 * mm, 20 * mm, fill=1, stroke=0)
+    pdf.setFillColor(colors.white)
+    pdf.setFont("Times-Bold", 22)
+    pdf.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 + 13.5 * mm, "CJ")
+    pdf.setFillColor(PAPER)
+    pdf.setFont("Times-Bold", 15)
+    pdf.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 - 15 * mm,
+                          "As Histórias do Cão Joaquim")
+    pdf.setFont("Times-Italic", 10)
+    pdf.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 - 25 * mm,
+                          f"{story_count} aventuras para ler em família")
+
+
 def create_sequential_pdf(book_dir: Path, book: dict, output_path: Path,
                           image_cache: Path) -> None:
     pdf = canvas.Canvas(str(output_path), pagesize=A5, pageCompression=1)
@@ -357,18 +537,134 @@ def build_book(book_id: str) -> Path:
     return output_path
 
 
+def build_collection() -> Path:
+    catalog = load_json(BOOKS_DIR / "books.json")
+    books: list[tuple[Path, dict]] = []
+    for item in catalog["books"]:
+        if item.get("status") != "available":
+            continue
+        book_dir = BOOKS_DIR / item["id"]
+        books.append((book_dir, load_json(book_dir / "book.json")))
+
+    if not books:
+        raise ValueError("A coletânea precisa de pelo menos uma história disponível.")
+
+    contents_pages = max(1, math.ceil(len(books) / CONTENTS_PER_PAGE))
+    physical_page = 2 + contents_pages
+    if physical_page % 2:
+        physical_page += 1
+
+    entries: list[dict] = []
+    for index, (_, book) in enumerate(books, start=1):
+        start_page = physical_page + 1
+        entries.append({
+            "number": index,
+            "title": book["title"],
+            "subtitle": book.get("subtitle", ""),
+            "page": start_page,
+            "bookmark": f"historia-{index}",
+        })
+        physical_page += len(book["pages"])
+        if index < len(books) and physical_page % 2:
+            physical_page += 1
+
+    output_path = OUTPUT_DIR / COLLECTION_FILENAME
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    with tempfile.TemporaryDirectory(prefix="cao-joaquim-coletanea-") as temp_dir:
+        image_cache = Path(temp_dir) / "images"
+        image_cache.mkdir()
+
+        pdf = canvas.Canvas(str(output_path), pagesize=A5, pageCompression=1)
+        pdf.setTitle(COLLECTION_TITLE)
+        pdf.setAuthor("Miguel Pinto")
+        pdf.setSubject("Coletânea A5 para impressão frente e verso e encadernação")
+
+        current_page = 1
+        draw_collection_cover(pdf, books, image_cache)
+        pdf.showPage()
+
+        current_page += 1
+        draw_collection_copyright_page(pdf)
+        pdf.showPage()
+
+        for part in range(contents_pages):
+            current_page += 1
+            if part == 0:
+                pdf.bookmarkPage("indice")
+                pdf.addOutlineEntry("Índice", "indice", level=0, closed=False)
+            start = part * CONTENTS_PER_PAGE
+            end = start + CONTENTS_PER_PAGE
+            draw_contents_page(pdf, entries[start:end], current_page, part, contents_pages)
+            pdf.showPage()
+
+        if current_page % 2:
+            current_page += 1
+            draw_blank_page(pdf)
+            pdf.showPage()
+
+        for index, (book_dir, book) in enumerate(books):
+            current_page += 1
+            entry = entries[index]
+            if current_page != entry["page"]:
+                raise ValueError("A paginação do índice não corresponde ao conteúdo.")
+
+            pdf.bookmarkPage(entry["bookmark"])
+            pdf.addOutlineEntry(book["title"], entry["bookmark"], level=0,
+                                closed=False)
+            cover = prepare_print_image(book_dir / book["pages"][0]["image"], image_cache)
+            draw_cover(pdf, cover, book)
+            draw_light_page_number(pdf, current_page)
+            pdf.showPage()
+
+            for page in book["pages"][1:]:
+                current_page += 1
+                if page["type"] == "image":
+                    image_path = prepare_print_image(book_dir / page["image"], image_cache)
+                    draw_image_page(pdf, image_path, current_page, current_page)
+                else:
+                    draw_text_page(pdf, page, BRICK, current_page, current_page)
+                pdf.showPage()
+
+            if index < len(books) - 1 and current_page % 2:
+                current_page += 1
+                draw_blank_page(pdf)
+                pdf.showPage()
+
+        if current_page % 2 == 0:
+            current_page += 1
+            draw_blank_page(pdf)
+            pdf.showPage()
+
+        current_page += 1
+        draw_collection_back_cover(pdf, len(books))
+        pdf.showPage()
+        pdf.save()
+
+    reader = PdfReader(str(output_path))
+    if len(reader.pages) != current_page or current_page % 2:
+        raise ValueError("A coletânea não terminou com um número par de páginas.")
+    return output_path
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--book", help="Gerar apenas o livro com este id")
+    parser.add_argument("--collection-only", action="store_true",
+                        help="Gerar apenas a coletânea completa")
     args = parser.parse_args()
 
     catalog = load_json(BOOKS_DIR / "books.json")
-    book_ids = [args.book] if args.book else [
-        book["id"] for book in catalog["books"] if book.get("status") == "available"
-    ]
-    for book_id in book_ids:
-        output = build_book(book_id)
-        print(output.relative_to(ROOT))
+    if not args.collection_only:
+        book_ids = [args.book] if args.book else [
+            book["id"] for book in catalog["books"] if book.get("status") == "available"
+        ]
+        for book_id in book_ids:
+            output = build_book(book_id)
+            print(output.relative_to(ROOT))
+
+    collection_output = build_collection()
+    print(collection_output.relative_to(ROOT))
 
 
 if __name__ == "__main__":
