@@ -28,6 +28,7 @@ BOOKS_DIR = ROOT / "books"
 OUTPUT_DIR = ROOT / "impressao"
 COLLECTION_TITLE = "As Histórias do Cão Joaquim"
 COLLECTION_FILENAME = "as-historias-do-cao-joaquim.pdf"
+COLLECTION_COVER_ART = ROOT / "assets" / "capa-coletanea-original.png"
 CONTENTS_PER_PAGE = 7
 
 PAGE_WIDTH, PAGE_HEIGHT = A5
@@ -83,6 +84,23 @@ def fit_image(pdf: canvas.Canvas, path: Path, box: tuple[float, float, float, fl
              draw_width + 3 * mm, draw_height + 3 * mm, fill=1, stroke=1)
     pdf.drawImage(image, draw_x, draw_y, draw_width, draw_height,
                   preserveAspectRatio=True, mask="auto")
+
+
+def fill_page_with_image(pdf: canvas.Canvas, path: Path) -> None:
+    image = ImageReader(str(path))
+    image_width, image_height = image.getSize()
+    scale = max(PAGE_WIDTH / image_width, PAGE_HEIGHT / image_height)
+    draw_width = image_width * scale
+    draw_height = image_height * scale
+    pdf.drawImage(
+        image,
+        (PAGE_WIDTH - draw_width) / 2,
+        (PAGE_HEIGHT - draw_height) / 2,
+        draw_width,
+        draw_height,
+        preserveAspectRatio=True,
+        mask="auto",
+    )
 
 
 def prepare_print_image(source: Path, cache_dir: Path) -> Path:
@@ -287,51 +305,31 @@ def draw_light_page_number(pdf: canvas.Canvas, number: int) -> None:
         pdf.drawString(x, 7 * mm, str(number))
 
 
-def draw_collection_cover(pdf: canvas.Canvas, books: list[tuple[Path, dict]],
-                          image_cache: Path) -> None:
-    pdf.setFillColor(PETROL)
-    pdf.rect(0, 0, PAGE_WIDTH, PAGE_HEIGHT, fill=1, stroke=0)
+def draw_collection_cover(pdf: canvas.Canvas, cover_path: Path) -> None:
+    fill_page_with_image(pdf, cover_path)
 
-    panel_x = 10 * mm
-    panel_y = PAGE_HEIGHT - 57 * mm
-    panel_width = PAGE_WIDTH - 20 * mm
-    panel_height = 47 * mm
+    panel_x = 75 * mm
+    panel_y = PAGE_HEIGHT - 44 * mm
+    panel_width = 65 * mm
+    panel_height = 36 * mm
+    pdf.saveState()
+    pdf.setFillAlpha(0.93)
     pdf.setFillColor(PAPER)
     pdf.rect(panel_x, panel_y, panel_width, panel_height, fill=1, stroke=0)
+    pdf.restoreState()
 
-    title = Paragraph(
-        "As Histórias do<br/><font size=27>Cão Joaquim</font>",
-        paragraph_style("collection-cover-title", 18, bold=True, leading_factor=1.08),
-    )
-    _, title_height = title.wrap(panel_width - 12 * mm, 32 * mm)
-    title.drawOn(pdf, panel_x + 6 * mm, panel_y + 11 * mm)
-
-    pdf.setFont("Times-Italic", 8.5)
+    title_x = panel_x + panel_width / 2
+    pdf.setFillColor(INK)
+    pdf.setFont("Times-Bold", 12)
+    pdf.drawCentredString(title_x, PAGE_HEIGHT - 17 * mm,
+                          "As Histórias do")
+    pdf.setFont("Times-Bold", 20)
+    pdf.drawCentredString(title_x, PAGE_HEIGHT - 27 * mm,
+                          "Cão Joaquim")
     pdf.setFillColor(BRICK)
-    pdf.drawCentredString(PAGE_WIDTH / 2, panel_y + 6 * mm,
+    pdf.setFont("Times-Italic", 6.5)
+    pdf.drawCentredString(title_x, PAGE_HEIGHT - 35 * mm,
                           "Uma coleção de aventuras para ler em família")
-
-    columns = 3
-    rows = max(1, math.ceil(len(books) / columns))
-    gap = 3.5 * mm
-    grid_x = 10 * mm
-    grid_y = 12 * mm
-    grid_width = PAGE_WIDTH - 20 * mm
-    grid_height = panel_y - grid_y - 6 * mm
-    cell_width = (grid_width - gap * (columns - 1)) / columns
-    cell_height = (grid_height - gap * (rows - 1)) / rows
-
-    for index, (book_dir, book) in enumerate(books):
-        row = index // columns
-        column = index % columns
-        x = grid_x + column * (cell_width + gap)
-        y = grid_y + (rows - 1 - row) * (cell_height + gap)
-        cover = prepare_print_image(book_dir / book["pages"][0]["image"], image_cache)
-        fit_image(pdf, cover, (x, y, cell_width, cell_height))
-
-    pdf.setFont("Times-Bold", 7.5)
-    pdf.setFillColor(PAPER)
-    pdf.drawCentredString(PAGE_WIDTH / 2, 6 * mm, "Histórias de Miguel Pinto")
 
 
 def draw_collection_copyright_page(pdf: canvas.Canvas) -> None:
@@ -581,7 +579,8 @@ def build_collection() -> Path:
         pdf.setSubject("Coletânea A5 para impressão frente e verso e encadernação")
 
         current_page = 1
-        draw_collection_cover(pdf, books, image_cache)
+        cover_art = prepare_print_image(COLLECTION_COVER_ART, image_cache)
+        draw_collection_cover(pdf, cover_art)
         pdf.showPage()
 
         current_page += 1
