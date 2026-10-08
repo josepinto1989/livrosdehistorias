@@ -41,6 +41,7 @@ Não peças para o imprimir como um único livreto dobrado: o volume completo é
 - `o-cao-joaquim-e-o-salto-de-paraquedas-livreto-a5.pdf`
 - `o-cao-joaquim-e-as-formigas-livreto-a5.pdf`
 - `o-cao-joaquim-e-os-patins-livreto-a5.pdf`
+- `o-cao-joaquim-e-a-gruta-assustadora-livreto-a5.pdf`
 
 ## Gerar novamente
 

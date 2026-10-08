@@ -50,6 +50,14 @@
       "cover": "books/cao-joaquim-patins/images/cover.webp",
       "status": "available",
       "href": "reader.html?book=cao-joaquim-patins"
+    },
+    {
+      "id": "cao-joaquim-gruta",
+      "title": "O Cão Joaquim e a Gruta Assustadora",
+      "subtitle": "Uma aventura no escuro",
+      "cover": "books/cao-joaquim-gruta/images/cover.webp",
+      "status": "available",
+      "href": "reader.html?book=cao-joaquim-gruta"
     }
   ]
 }

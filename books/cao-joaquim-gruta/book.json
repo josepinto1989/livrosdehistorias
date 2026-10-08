@@ -1,0 +1,164 @@
+{
+  "id": "cao-joaquim-gruta",
+  "collectionTitle": "As Aventuras do Cão Joaquim e amigos",
+  "title": "O Cão Joaquim e a Gruta Assustadora",
+  "subtitle": "Uma aventura no escuro",
+  "coverTitle": "O Cão Joaquim",
+  "coverSubtitle": "e a Gruta Assustadora",
+  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "themeColor": "#2f6f73",
+  "pages": [
+    {
+      "type": "cover",
+      "image": "images/cover.webp",
+      "alt": "Capa de O Cão Joaquim e a Gruta Assustadora"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Era uma vez um cão chamado Joaquim.",
+        "Certa manhã, acordou com vontade de descobrir um lugar escuro e misterioso.",
+        "— Já sei! Vou explorar a gruta assustadora que fica aqui perto!",
+        "Preparou três lanternas, três pares de galochas e três capacetes para proteger a cabeça.",
+        "Mas uma aventura daquelas não podia ser feita sozinho."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/01-preparativos.webp",
+      "alt": "Joaquim prepara lanternas, galochas e capacetes para explorar a gruta"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Joaquim foi até à casa do seu melhor amigo, bateu à porta e chamou:",
+        "— Gato Albertooooo!",
+        "Alberto abriu a porta e olhou para todo aquele equipamento.",
+        "— Trouxe lanternas, galochas e capacetes. Queres explorar uma gruta comigo?",
+        "— Eu sou um gato e vejo muito bem no escuro — respondeu Alberto. — Mas vou contigo!",
+        "Joaquim sorriu. Ainda faltava um amigo."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/02-porta-alberto.webp",
+      "alt": "Joaquim mostra o equipamento de exploração ao Gato Alberto"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Os dois encheram os pulmões e gritaram:",
+        "— Papagaio Gilbertooooo!",
+        "Gilberto chegou a bater as asas e ficou espantado quando soube do plano.",
+        "— Essa gruta é muito assustadora. Uma vez espreitei lá para dentro e vi muitos olhos!",
+        "— Temos lanternas, galochas e capacetes — disse Joaquim. — Estamos preparados!",
+        "Os três amigos apertaram os capacetes e entraram na gruta."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/03-entrada-gruta.webp",
+      "alt": "Joaquim, Alberto e Gilberto entram na gruta com lanternas, galochas e capacetes"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Lá dentro ficou tudo cada vez mais escuro.",
+        "Joaquim ligou a lanterna e iluminou uma criatura pendurada no teto.",
+        "Era um morcego que estava a dormir.",
+        "— Quem me acordou? Ainda vos dou uma trinca! — resmungou ele.",
+        "Joaquim pediu desculpa e explicou que eram exploradores de grutas.",
+        "— Eu sou o Morcego Salame — apresentou-se a criatura. — Chamo-me assim porque gosto muito de salame!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/04-morcego-salame.webp",
+      "alt": "A luz da lanterna acorda o Morcego Salame no teto da gruta"
+    },
+    {
+      "type": "text",
+      "text": [
+        "O Morcego Salame olhou para o fundo da gruta.",
+        "— Quem é aquele morcego esquisito que anda ali a voar às voltas?",
+        "Era o Papagaio Gilberto, completamente perdido porque se tinha esquecido de ligar a lanterna.",
+        "Joaquim prendeu-lhe a lanterna ao capacete.",
+        "— Agora já vejo! — disse Gilberto, um bocadinho envergonhado.",
+        "Salame achou graça e convidou os três amigos a conhecer a sua casa."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/05-gilberto-perdido.webp",
+      "alt": "Joaquim coloca a lanterna no capacete de Gilberto enquanto o Morcego Salame observa"
+    },
+    {
+      "type": "text",
+      "text": [
+        "A certa altura, Salame pediu silêncio.",
+        "— Aqui mora a Senhora Aranha. É uma viúva-negra e não gosta que a acordem.",
+        "Nesse instante, Alberto apontou a lanterna na direção dela.",
+        "— Quem entrou na minha casa? Ainda vos mordo! — protestou a aranha.",
+        "Salame apresentou os amigos e a Senhora Aranha acalmou-se. Depois arrumou a casa num instante com as suas oito patas.",
+        "— Querem comer alguns insetos?",
+        "Os três agradeceram, mas ninguém tinha fome."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/06-senhora-aranha.webp",
+      "alt": "A Senhora Aranha viúva-negra recebe os amigos na sua casa dentro da gruta"
+    },
+    {
+      "type": "text",
+      "text": [
+        "— Podem continuar até ao fundo — disse a Senhora Aranha. — Lá encontrarão uma cascata, mas tenham cuidado!",
+        "Salame ficou a conversar com ela e os três amigos seguiram caminho.",
+        "Passaram entre estalactites e estalagmites até chegarem a um rio escondido dentro da gruta.",
+        "Joaquim abriu o mapa que levava no bolso.",
+        "— Esta cascata vai dar ao mar! Podemos sair por aqui!",
+        "Alberto recuou logo duas patas.",
+        "— Água, Joaquim? Eu sou um gato. Não gosto de água!"
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/07-cascata.webp",
+      "alt": "Os amigos encontram um rio e uma cascata entre estalactites e estalagmites"
+    },
+    {
+      "type": "text",
+      "text": [
+        "Gilberto bateu as asas e foi o primeiro a atravessar a cascata.",
+        "Pouco depois, ouviram-no gritar do outro lado:",
+        "— Estou no mar! Podem vir!",
+        "Joaquim saltou e escorregou pela água como num escorrega gigante.",
+        "Alberto chegou à beira da cascata, olhou para baixo e engoliu em seco.",
+        "Joaquim estendeu-lhe uma pata. Alberto fechou os olhos e os dois fizeram a última descida juntos.",
+        "Chuááá! Foram parar ao mar."
+      ]
+    },
+    {
+      "type": "image",
+      "image": "images/08-descida-mar.webp",
+      "alt": "Joaquim e Alberto descem a cascata da gruta até ao mar enquanto Gilberto os espera"
+    },
+    {
+      "type": "ending",
+      "text": [
+        "Quando saíram da água, perceberam que o céu já estava a escurecer.",
+        "— Joaquim, estou todo molhado! — resmungou Alberto, a sacudir o pelo.",
+        "Mesmo assim, o gato não conseguiu esconder um sorriso. A gruta tinha sido assustadora, mas também muito divertida.",
+        "Os três amigos regressaram a casa e despediram-se:",
+        "— Boa noite! Até amanhã!",
+        "Depois de lanternas, morcegos, aranhas e cascatas, estavam prontos para dormir e sonhar com a próxima aventura."
+      ],
+      "end": "Fim."
+    },
+    {
+      "type": "image",
+      "image": "images/09-regresso.webp",
+      "alt": "Joaquim, Alberto e Gilberto regressam a casa ao anoitecer depois da aventura na gruta"
+    }
+  ]
+}
