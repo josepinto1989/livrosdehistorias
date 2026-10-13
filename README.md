@@ -1,6 +1,6 @@
 # As Aventuras do Cão Joaquim e amigos
 
-Uma coleção digital de histórias infantis ilustradas, inventadas em família por Miguel Pinto para o Guilherme e Xavier.
+Uma coleção digital de histórias infantis ilustradas, inventadas em família por Miguel Pinto para o Guilherme e o Xavier.
 
 As aventuras acompanham o Cão Joaquim e os seus amigos por lugares onde a curiosidade, o humor e a imaginação transformam cada passeio numa história para ler em conjunto.
 

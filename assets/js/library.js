@@ -1,5 +1,5 @@
 
-const libraryAssetVersion = "20260929-4";
+const libraryAssetVersion = "20261013-1";
 
 async function loadLibrary() {
   const grid = document.querySelector("#bookGrid");

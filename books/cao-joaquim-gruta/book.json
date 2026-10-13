@@ -5,7 +5,7 @@
   "subtitle": "Uma aventura no escuro",
   "coverTitle": "O Cão Joaquim",
   "coverSubtitle": "e a Gruta Assustadora",
-  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "credit": "Uma história inventada pelo Guilherme e pelo pai",
   "themeColor": "#2f6f73",
   "pages": [
     {
@@ -31,12 +31,12 @@
     {
       "type": "text",
       "text": [
-        "Joaquim foi até à casa do seu melhor amigo, bateu à porta e chamou:",
+        "O Joaquim foi até à casa do seu melhor amigo, bateu à porta e chamou:",
         "— Gato Albertooooo!",
-        "Alberto abriu a porta e olhou para todo aquele equipamento.",
+        "O Alberto abriu a porta e olhou para todo aquele equipamento.",
         "— Trouxe lanternas, galochas e capacetes. Queres explorar uma gruta comigo?",
-        "— Eu sou um gato e vejo muito bem no escuro — respondeu Alberto. — Mas vou contigo!",
-        "Joaquim sorriu. Ainda faltava um amigo."
+        "— Eu sou um gato e vejo muito bem no escuro — respondeu o Alberto. — Mas vou contigo!",
+        "O Joaquim sorriu. Ainda faltava um amigo."
       ]
     },
     {
@@ -49,9 +49,9 @@
       "text": [
         "Os dois encheram os pulmões e gritaram:",
         "— Papagaio Gilbertooooo!",
-        "Gilberto chegou a bater as asas e ficou espantado quando soube do plano.",
+        "O Gilberto chegou a bater as asas e ficou espantado quando soube do plano.",
         "— Essa gruta é muito assustadora. Uma vez espreitei lá para dentro e vi muitos olhos!",
-        "— Temos lanternas, galochas e capacetes — disse Joaquim. — Estamos preparados!",
+        "— Temos lanternas, galochas e capacetes — disse o Joaquim. — Estamos preparados!",
         "Os três amigos apertaram os capacetes e entraram na gruta."
       ]
     },
@@ -64,10 +64,10 @@
       "type": "text",
       "text": [
         "Lá dentro ficou tudo cada vez mais escuro.",
-        "Joaquim ligou a lanterna e iluminou uma criatura pendurada no teto.",
+        "O Joaquim ligou a lanterna e iluminou uma criatura pendurada no teto.",
         "Era um morcego que estava a dormir.",
         "— Quem me acordou? Ainda vos dou uma trinca! — resmungou ele.",
-        "Joaquim pediu desculpa e explicou que eram exploradores de grutas.",
+        "O Joaquim pediu desculpa e explicou que eram exploradores de grutas.",
         "— Eu sou o Morcego Salame — apresentou-se a criatura. — Chamo-me assim porque gosto muito de salame!"
       ]
     },
@@ -82,9 +82,9 @@
         "O Morcego Salame olhou para o fundo da gruta.",
         "— Quem é aquele morcego esquisito que anda ali a voar às voltas?",
         "Era o Papagaio Gilberto, completamente perdido porque se tinha esquecido de ligar a lanterna.",
-        "Joaquim prendeu-lhe a lanterna ao capacete.",
-        "— Agora já vejo! — disse Gilberto, um bocadinho envergonhado.",
-        "Salame achou graça e convidou os três amigos a conhecer a sua casa."
+        "O Joaquim prendeu-lhe a lanterna ao capacete.",
+        "— Agora já vejo! — disse o Gilberto, um bocadinho envergonhado.",
+        "O Salame achou graça e convidou os três amigos a conhecer a sua casa."
       ]
     },
     {
@@ -95,11 +95,11 @@
     {
       "type": "text",
       "text": [
-        "A certa altura, Salame pediu silêncio.",
+        "A certa altura, o Salame pediu silêncio.",
         "— Aqui mora a Senhora Aranha. É uma viúva-negra e não gosta que a acordem.",
-        "Nesse instante, Alberto apontou a lanterna na direção dela.",
+        "Nesse instante, o Alberto apontou a lanterna na direção dela.",
         "— Quem entrou na minha casa? Ainda vos mordo! — protestou a aranha.",
-        "Salame apresentou os amigos e a Senhora Aranha acalmou-se. Depois arrumou a casa num instante com as suas oito patas.",
+        "O Salame apresentou os amigos e a Senhora Aranha acalmou-se. Depois arrumou a casa num instante com as suas oito patas.",
         "— Querem comer alguns insetos?",
         "Os três agradeceram, mas ninguém tinha fome."
       ]
@@ -113,11 +113,11 @@
       "type": "text",
       "text": [
         "— Podem continuar até ao fundo — disse a Senhora Aranha. — Lá encontrarão uma cascata, mas tenham cuidado!",
-        "Salame ficou a conversar com ela e os três amigos seguiram caminho.",
+        "O Salame ficou a conversar com ela e os três amigos seguiram caminho.",
         "Passaram entre estalactites e estalagmites até chegarem a um rio escondido dentro da gruta.",
-        "Joaquim abriu o mapa que levava no bolso.",
+        "O Joaquim abriu o mapa que levava no bolso.",
         "— Esta cascata vai dar ao mar! Podemos sair por aqui!",
-        "Alberto recuou logo duas patas.",
+        "O Alberto recuou logo duas patas.",
         "— Água, Joaquim? Eu sou um gato. Não gosto de água!"
       ]
     },
@@ -129,12 +129,12 @@
     {
       "type": "text",
       "text": [
-        "Gilberto bateu as asas e foi o primeiro a atravessar a cascata.",
+        "O Gilberto bateu as asas e foi o primeiro a atravessar a cascata.",
         "Pouco depois, ouviram-no gritar do outro lado:",
         "— Estou no mar! Podem vir!",
-        "Joaquim saltou e escorregou pela água como num escorrega gigante.",
-        "Alberto chegou à beira da cascata, olhou para baixo e engoliu em seco.",
-        "Joaquim estendeu-lhe uma pata. Alberto fechou os olhos e os dois fizeram a última descida juntos.",
+        "O Joaquim saltou e escorregou pela água como num escorrega gigante.",
+        "O Alberto chegou à beira da cascata, olhou para baixo e engoliu em seco.",
+        "O Joaquim estendeu-lhe uma pata. O Alberto fechou os olhos e os dois fizeram a última descida juntos.",
         "Chuááá! Foram parar ao mar."
       ]
     },
@@ -147,7 +147,7 @@
       "type": "ending",
       "text": [
         "Quando saíram da água, perceberam que o céu já estava a escurecer.",
-        "— Joaquim, estou todo molhado! — resmungou Alberto, a sacudir o pelo.",
+        "— Joaquim, estou todo molhado! — resmungou o Alberto, a sacudir o pelo.",
         "Mesmo assim, o gato não conseguiu esconder um sorriso. A gruta tinha sido assustadora, mas também muito divertida.",
         "Os três amigos regressaram a casa e despediram-se:",
         "— Boa noite! Até amanhã!",

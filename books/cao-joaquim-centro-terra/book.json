@@ -5,7 +5,7 @@
   "subtitle": "Uma aventura entre dinossauros",
   "coverTitle": "O Cão Joaquim",
   "coverSubtitle": "no Centro da Terra",
-  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "credit": "Uma história inventada pelo Guilherme e pelo pai",
   "themeColor": "#2f7d4a",
   "pages": [
     {
@@ -22,7 +22,7 @@
         "Correu até à casa do seu melhor amigo e bateu à porta.",
         "Truz, truz!",
         "— Gato Albertooooo!",
-        "Alberto apareceu ainda cheio de sono.",
+        "O Alberto apareceu ainda cheio de sono.",
         "— Joaquim, tu és maluco… Mas eu vou contigo!"
       ]
     },
@@ -34,11 +34,11 @@
     {
       "type": "text",
       "text": [
-        "Alberto lembrou-se de que ainda faltava alguém.",
+        "O Alberto lembrou-se de que ainda faltava alguém.",
         "— Para uma viagem destas precisamos de um amigo que saiba voar!",
         "Os dois olharam para o céu e gritaram:",
         "— Papagaio Gilbertooooo!",
-        "Gilberto desceu a bater as asas.",
+        "O Gilberto desceu a bater as asas.",
         "— Vocês falam tanto que eu ouvi tudo lá de cima. Vamos a isso!"
       ]
     },
@@ -52,7 +52,7 @@
       "text": [
         "Os três amigos encontraram um buraco muito, muito fundo.",
         "Lá em baixo não se via nada.",
-        "Joaquim respirou fundo e começou a contar:",
+        "O Joaquim respirou fundo e começou a contar:",
         "— Um… dois… três!",
         "E os três saltaram ao mesmo tempo.",
         "Desceram, desceram e desceram, enquanto a luz do céu ficava cada vez mais pequena."
@@ -68,7 +68,7 @@
       "text": [
         "Quando chegaram ao fundo, esperavam encontrar uma gruta escura.",
         "Mas diante deles havia uma selva gigantesca, cheia de fetos, árvores enormes e plantas que brilhavam.",
-        "— Uau! — disse Joaquim.",
+        "— Uau! — disse o Joaquim.",
         "O chão tremia debaixo das patas e, entre as folhas, ouviam-se passos pesados.",
         "Alguma coisa muito grande aproximava-se."
       ]
@@ -83,9 +83,9 @@
       "text": [
         "Das plantas saiu um dinossauro enorme, com três chifres e uma gola à volta da cabeça.",
         "Era um Triceratops.",
-        "Alberto escondeu-se atrás de Joaquim, mas o dinossauro só estava a comer folhas.",
+        "O Alberto escondeu-se atrás do Joaquim, mas o dinossauro só estava a comer folhas.",
         "Levantou a cabeça e olhou para os visitantes com curiosidade.",
-        "— Acho que ele é nosso amigo — sussurrou Gilberto."
+        "— Acho que ele é nosso amigo — sussurrou o Gilberto."
       ]
     },
     {
@@ -101,7 +101,7 @@
         "Um Tiranossauro Rex apareceu entre os troncos, abriu a boca enorme e correu na direção dos amigos.",
         "Bom! Bom! Bom!",
         "Cada passo fazia o chão saltar.",
-        "— Fujam! — gritou Joaquim."
+        "— Fujam! — gritou o Joaquim."
       ]
     },
     {
@@ -112,9 +112,9 @@
     {
       "type": "text",
       "text": [
-        "Joaquim, Alberto e Gilberto esconderam-se atrás de uma árvore muito larga.",
-        "— Como vamos voltar para casa? — perguntou Alberto. — O buraco é alto demais!",
-        "Gilberto espreitou por cima dos ramos e viu um vulcão ao longe.",
+        "O Joaquim, o Alberto e o Gilberto esconderam-se atrás de uma árvore muito larga.",
+        "— Como vamos voltar para casa? — perguntou o Alberto. — O buraco é alto demais!",
+        "O Gilberto espreitou por cima dos ramos e viu um vulcão ao longe.",
         "— Já tenho uma ideia!",
         "Os amigos esperaram que o T-Rex olhasse para o outro lado e correram em bicos de pés até ao vulcão."
       ]
@@ -128,7 +128,7 @@
       "type": "text",
       "text": [
         "Junto ao vulcão encontraram um pequeno barco de metal.",
-        "Entraram depressa e Joaquim carregou no único botão que havia.",
+        "Entraram depressa e o Joaquim carregou no único botão que havia.",
         "Clac! O barco fechou-se como uma cápsula.",
         "O T-Rex chegou mesmo a tempo de abrir a boca, mas o barco disparou pelo vulcão acima.",
         "Passou pela lava sem se queimar e saiu pelo topo com um enorme…",
@@ -143,10 +143,10 @@
     {
       "type": "ending",
       "text": [
-        "Já cá fora, Gilberto sacudiu as penas.",
+        "Já cá fora, o Gilberto sacudiu as penas.",
         "— Eu sei voar, mas isto foi mesmo radical!",
         "Os três amigos voltaram para casa com o pelo e as penas um bocadinho chamuscados, mas muito felizes.",
-        "Joaquim deitou-se e lembrou-se da selva, dos dinossauros e do barco de metal.",
+        "O Joaquim deitou-se e lembrou-se da selva, dos dinossauros e do barco de metal.",
         "Tinha sido mais uma aventura inesquecível.",
         "Mas agora estava na hora de dormir."
       ],

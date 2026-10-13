@@ -5,7 +5,7 @@
   "subtitle": "Uma aventura nas alturas",
   "coverTitle": "O Cão Joaquim",
   "coverSubtitle": "e o Salto de Paraquedas",
-  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "credit": "Uma história inventada pelo Guilherme e pelo pai",
   "themeColor": "#e05b38",
   "pages": [
     {
@@ -32,10 +32,10 @@
     {
       "type": "text",
       "text": [
-        "Joaquim correu até à casa do seu melhor amigo e bateu à porta.",
+        "O Joaquim correu até à casa do seu melhor amigo e bateu à porta.",
         "Truz, truz! Ninguém respondeu.",
         "— Gato Albertooooo!",
-        "Alberto abriu a porta com ar desconfiado.",
+        "O Alberto abriu a porta com ar desconfiado.",
         "— Joaquim, estás sempre a bater à minha porta. O que queres agora?",
         "— Quero saltar de paraquedas! Vens comigo?"
       ]
@@ -48,7 +48,7 @@
     {
       "type": "text",
       "text": [
-        "Alberto levantou o queixo e respondeu:",
+        "O Alberto levantou o queixo e respondeu:",
         "— Eu sou um gato. Tenho sete vidas e aterro sempre de pé. Nem preciso de paraquedas!",
         "— Tu és doido, Alberto. Mas vens?",
         "— Vou!",
@@ -66,10 +66,10 @@
       "text": [
         "Os três amigos foram até ao avião e subiram a bordo.",
         "O avião levantou voo e subiu muito, muito alto, por cima das nuvens.",
-        "Joaquim apertou bem o paraquedas.",
+        "O Joaquim apertou bem o paraquedas.",
         "— Alberto, é melhor vestires o teu.",
         "— Não, não! Eu sou um gato. Consigo saltar muito alto e sobreviver!",
-        "Gilberto arregalou os olhos.",
+        "O Gilberto arregalou os olhos.",
         "— Ai, Alberto… tu és mesmo maluco."
       ]
     },
@@ -81,12 +81,12 @@
     {
       "type": "text",
       "text": [
-        "Joaquim abriu a porta do avião e saltou.",
-        "Alberto saltou logo atrás dele, muito confiante.",
+        "O Joaquim abriu a porta do avião e saltou.",
+        "O Alberto saltou logo atrás dele, muito confiante.",
         "Mas, quando viu o chão lá em baixo, percebeu que talvez tivesse cometido um pequeno erro.",
-        "— Afinal preciso de paraquedas! Dêem-me um paraquedas!",
-        "Joaquim puxou a corda e o seu paraquedas abriu-se no céu.",
-        "Alberto continuou a cair cada vez mais depressa."
+        "— Afinal preciso de paraquedas! Deem-me um paraquedas!",
+        "O Joaquim puxou a corda e o seu paraquedas abriu-se no céu.",
+        "O Alberto continuou a cair cada vez mais depressa."
       ]
     },
     {
@@ -97,8 +97,8 @@
     {
       "type": "text",
       "text": [
-        "— Papagaio Gilberto! Apanha o Gato Alberto! — gritou Joaquim.",
-        "Gilberto fechou as asas, mergulhou pelo céu e agarrou Alberto mesmo a tempo.",
+        "— Papagaio Gilberto! Apanha o Gato Alberto! — gritou o Joaquim.",
+        "O Gilberto fechou as asas, mergulhou pelo céu e agarrou o Alberto mesmo a tempo.",
         "Depois bateu as asas com toda a força para o segurar.",
         "— Alberto, andas a comer demais! Estás muito pesado!",
         "O gato sorriu, pendurado nas patas do papagaio.",
@@ -116,7 +116,7 @@
         "Enquanto os três desciam pelo céu, apareceu uma borboleta muito especial.",
         "Tinha asas vermelhas e douradas e um bigode enorme, todo enrolado nas pontas.",
         "— Eu sou a Borboleta Pedro! O que estão aqui a fazer?",
-        "Quando ouviu a história do salto, Pedro ficou espantado.",
+        "Quando ouviu a história do salto, o Pedro ficou espantado.",
         "— Vocês são mesmo malucos! Mas já que estão todos a voar, vou convosco."
       ]
     },
@@ -128,12 +128,12 @@
     {
       "type": "text",
       "text": [
-        "Pouco depois, Joaquim pousou suavemente com o paraquedas.",
-        "Gilberto deixou Alberto no chão e caiu de costas na relva, exausto.",
+        "Pouco depois, o Joaquim pousou suavemente com o paraquedas.",
+        "O Gilberto deixou o Alberto no chão e caiu de costas na relva, exausto.",
         "— Ufa! O Gato Alberto pesa muito!",
-        "Alberto sacudiu o pelo e levantou a cauda.",
+        "O Alberto sacudiu o pelo e levantou a cauda.",
         "— Estão a ver? Saltei sem paraquedas e sobrevivi!",
-        "Joaquim e Pedro olharam um para o outro e desataram a rir."
+        "O Joaquim e o Pedro olharam um para o outro e desataram a rir."
       ]
     },
     {
@@ -145,12 +145,12 @@
       "type": "ending",
       "text": [
         "Depois de uma aventura tão alta, os amigos voltaram para casa muito cansados.",
-        "Joaquim deitou-se e puxou o cobertor até ao focinho.",
-        "À janela apareceram Alberto, Gilberto e a Borboleta Pedro.",
+        "O Joaquim deitou-se e puxou o cobertor até ao focinho.",
+        "À janela apareceram o Alberto, o Gilberto e a Borboleta Pedro.",
         "— Boa noite, Gato Alberto!",
         "— Boa noite, Papagaio Gilberto!",
         "— Boa noite, Borboleta Pedro!",
-        "Joaquim fechou os olhos a pensar no céu, nas nuvens e no seu paraquedas."
+        "O Joaquim fechou os olhos a pensar no céu, nas nuvens e no seu paraquedas."
       ],
       "end": "Fim."
     },

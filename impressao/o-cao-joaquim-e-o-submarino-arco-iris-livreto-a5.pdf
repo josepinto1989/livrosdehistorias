@@ -246,7 +246,7 @@ BT
 /F2 7.3 Tf
 7.665 TL
 84.00865 0 Td
-(Uma hist\363ria inventada pelo pai e pelo Guilherme) Tj
+(Uma hist\363ria inventada pelo Guilherme e pelo pai) Tj
 T*
 -84.00865 0 Td
 ET
@@ -385,7 +385,7 @@ BT
 /F3 9.5 Tf
 12.825 TL
 66.72205 0 Td
-(Uma hist\363ria inventada pelo pai e pelo Guilherme) Tj
+(Uma hist\363ria inventada pelo Guilherme e pelo pai) Tj
 T*
 -66.72205 0 Td
 ET
@@ -872,7 +872,7 @@ endstream
 endobj
 21 0 obj
 <<
-/Length 2069
+/Length 2079
 >>
 stream
 q
@@ -957,10 +957,10 @@ BT
 1 0 0 1 0 5.49 Tm
 /F3 12.2 Tf
 17.69 TL
-116.2035 0 Td
-(\227 Gato Albertooooo\041) Tj
+114.1722 0 Td
+(\227 Gato Albertooooo\041\041) Tj
 T*
--116.2035 0 Td
+-114.1722 0 Td
 ET
 Q
 Q
@@ -991,10 +991,10 @@ BT
 1 0 0 1 0 5.49 Tm
 /F3 12.2 Tf
 17.69 TL
-18.11554 0 Td
-(\227 Vamos passear at\351 ao fundo do mar\041 \227 anunciou Joaquim\056) Tj
+13.54054 0 Td
+(\227 Vamos passear at\351 ao fundo do mar\041 \227 anunciou o Joaquim\056) Tj
 T*
--18.11554 0 Td
+-13.54054 0 Td
 ET
 Q
 Q
@@ -1021,10 +1021,10 @@ BT
 1 0 0 1 0 5.49 Tm
 /F3 12.2 Tf
 17.69 TL
-104.0035 0 Td
-(\227 Papagaio Gilbertooooo\041) Tj
+101.9722 0 Td
+(\227 Papagaio Gilbertooooo\041\041) Tj
 T*
--104.0035 0 Td
+-101.9722 0 Td
 ET
 Q
 Q
@@ -2122,7 +2122,7 @@ endstream
 endobj
 39 0 obj
 <<
-/Length 2024
+/Length 2025
 >>
 stream
 q
@@ -2192,10 +2192,10 @@ BT
 1 0 0 1 0 23.18 Tm
 /F3 12.2 Tf
 17.69 TL
-12.35714 0 Td
-(\227 Desculpe l\341 \227 disse Joaquim\056 \227 Eu ainda estou a aprender a) Tj
+7.78214 0 Td
+(\227 Desculpe l\341 \227 disse o Joaquim\056 \227 Eu ainda estou a aprender a) Tj
 T*
-134.8527 0 Td
+139.4277 0 Td
 (conduzir\056) Tj
 T*
 -147.2098 0 Td
@@ -2524,27 +2524,27 @@ xref
 0003040235 00000 n 
 0003040537 00000 n 
 0004110274 00000 n 
-0004112396 00000 n 
-0004112698 00000 n 
-0005079503 00000 n 
-0005081355 00000 n 
-0005081657 00000 n 
-0006119909 00000 n 
-0006122052 00000 n 
-0006122354 00000 n 
-0007209801 00000 n 
-0007212015 00000 n 
-0007212317 00000 n 
-0008296819 00000 n 
-0008298913 00000 n 
-0008299215 00000 n 
-0009345235 00000 n 
-0009347543 00000 n 
-0009347845 00000 n 
-0010437337 00000 n 
-0010439414 00000 n 
-0010439716 00000 n 
-0011467284 00000 n 
+0004112406 00000 n 
+0004112708 00000 n 
+0005079513 00000 n 
+0005081365 00000 n 
+0005081667 00000 n 
+0006119919 00000 n 
+0006122062 00000 n 
+0006122364 00000 n 
+0007209811 00000 n 
+0007212025 00000 n 
+0007212327 00000 n 
+0008296829 00000 n 
+0008298923 00000 n 
+0008299225 00000 n 
+0009345245 00000 n 
+0009347553 00000 n 
+0009347855 00000 n 
+0010437347 00000 n 
+0010439425 00000 n 
+0010439727 00000 n 
+0011467295 00000 n 
 trailer
 <<
 /Size 43
@@ -2552,5 +2552,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-11469550
+11469561
 %%EOF

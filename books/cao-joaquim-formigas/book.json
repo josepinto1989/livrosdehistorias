@@ -5,7 +5,7 @@
   "subtitle": "Uma aventura em tamanho pequeno",
   "coverTitle": "O Cão Joaquim",
   "coverSubtitle": "e as Formigas",
-  "credit": "Uma história inventada pelo pai e pelo Guilherme",
+  "credit": "Uma história inventada pelo Guilherme e pelo pai",
   "themeColor": "#bd563e",
   "pages": [
     {
@@ -20,7 +20,7 @@
         "Certo dia, estava sozinho em casa a arrumar umas caixas antigas.",
         "Dentro de uma delas encontrou uma pistola muito estranha, cheia de luzes e botões.",
         "Não era uma pistola qualquer. Quem fosse atingido pelo seu raio ficava muito, muito pequenino.",
-        "Joaquim levantou-a com cuidado e teve logo uma ideia para uma nova aventura."
+        "O Joaquim levantou-a com cuidado e teve logo uma ideia para uma nova aventura."
       ]
     },
     {
@@ -31,10 +31,10 @@
     {
       "type": "text",
       "text": [
-        "Joaquim correu até à casa do Gato Alberto e bateu à porta.",
+        "O Joaquim correu até à casa do Gato Alberto e bateu à porta.",
         "Ninguém respondeu, por isso chamou ainda mais alto:",
         "— Gato Albertooooo!",
-        "Alberto abriu a porta e apontou para a campainha.",
+        "O Alberto abriu a porta e apontou para a campainha.",
         "— Joaquim, aquele botão serve para tocar. Não precisas de acordar a rua inteira!",
         "— Mas assim é muito mais divertido — respondeu Joaquim."
       ]
@@ -47,10 +47,10 @@
     {
       "type": "text",
       "text": [
-        "Joaquim mostrou-lhe a pistola mágica.",
-        "— Isto parece um brinquedo — disse Alberto.",
+        "O Joaquim mostrou-lhe a pistola mágica.",
+        "— Isto parece um brinquedo — disse o Alberto.",
         "— Faz-nos ficar tão pequenos que podemos explorar lugares novos!",
-        "Alberto achou a ideia maluca, como quase todas as ideias de Joaquim, mas aceitou.",
+        "O Alberto achou a ideia maluca, como quase todas as ideias do Joaquim, mas aceitou.",
         "Depois chamaram o amigo que nunca perdia uma aventura:",
         "— Papagaio Gilbertooooo!"
       ]
@@ -63,10 +63,10 @@
     {
       "type": "text",
       "text": [
-        "Perto da casa de Alberto havia um grande formigueiro.",
+        "Perto da casa do Alberto havia um grande formigueiro.",
         "— É daqui que vêm aquelas formigas todas! — resmungou o gato. — Estão sempre a entrar em minha casa.",
-        "— Então vamos falar com a rainha — disse Joaquim.",
-        "Apontou a pistola primeiro a Alberto, depois a Gilberto e, por fim, a si próprio.",
+        "— Então vamos falar com a rainha — disse o Joaquim.",
+        "Apontou a pistola primeiro ao Alberto, depois ao Gilberto e, por fim, a si próprio.",
         "Zap! Zap! Zap!",
         "Num instante, os três ficaram mais pequenos do que uma formiga."
       ]
@@ -83,7 +83,7 @@
         "Lá dentro havia túneis por todos os lados e estava muito escuro.",
         "De repente, duas formigas guardas bloquearam o caminho.",
         "— Quem são vocês? Não podem passar!",
-        "Joaquim apresentou os amigos e explicou que queriam falar com a rainha sobre as visitas à casa de Alberto.",
+        "O Joaquim apresentou os amigos e explicou que queriam falar com a rainha sobre as visitas à casa do Alberto.",
         "Uma das guardas foi pedir autorização."
       ]
     },
@@ -97,7 +97,7 @@
       "text": [
         "— A rainha vai receber-vos — anunciou a guarda quando voltou.",
         "A caminho do palácio, os amigos viram os armazéns de comida, as salas das formigas pequenas e muitas trabalhadoras a abrir novos túneis.",
-        "Gilberto iluminava o caminho com a lanterna. Alberto olhava para tudo de boca aberta.",
+        "O Gilberto iluminava o caminho com a lanterna. O Alberto olhava para tudo de boca aberta.",
         "O formigueiro era uma verdadeira cidade debaixo da terra."
       ]
     },
@@ -109,11 +109,11 @@
     {
       "type": "text",
       "text": [
-        "No fim do túnel encontraram a Rainha das Formigas, muito maior do que as outras e com uma coroa gigantesca.",
-        "Alberto explicou que estava cansado de encontrar formigas em casa.",
+        "No fim do túnel, encontraram a Rainha das Formigas, muito maior do que as outras e com uma coroa gigantesca.",
+        "O Alberto explicou que estava cansado de encontrar tantas formigas em casa.",
         "— Mas tu deixas sempre o açúcar de fora — respondeu a rainha. — Nós precisamos de comida para toda a colónia.",
         "Depois ofereceu-lhes três copinhos de água com açúcar.",
-        "— É muito doce! — disse Joaquim depois de provar."
+        "— É muito doce! — disse o Joaquim depois de provar."
       ]
     },
     {
@@ -126,7 +126,7 @@
       "text": [
         "A rainha propôs um acordo:",
         "— Se deixares um pratinho com açúcar à entrada do formigueiro, nós deixamos de entrar em tua casa.",
-        "Alberto suspirou. Não queria alimentar as formigas, mas queria ainda menos encontrá-las na cozinha.",
+        "O Alberto suspirou. Não queria alimentar as formigas, mas queria ainda menos encontrá-las na cozinha.",
         "— Está bem, eu faço isso.",
         "As formigas despediram-se e os três amigos voltaram à superfície, satisfeitos por terem resolvido o problema."
       ]
@@ -139,11 +139,11 @@
     {
       "type": "text",
       "text": [
-        "Já cá fora, Joaquim parou de repente.",
+        "Já cá fora, o Joaquim parou de repente.",
         "— Esqueci-me de descobrir como voltamos ao tamanho normal!",
         "Os três olharam uns para os outros. Até uma mosca parecia gigantesca ao lado deles.",
         "Nesse momento começou a chover.",
-        "Uma gota enorme caiu em cima de Joaquim e… Plim! Voltou ao tamanho normal.",
+        "Uma gota enorme caiu em cima do Joaquim e… Plim! Voltou ao tamanho normal.",
         "— Já percebi! A água faz-nos crescer!"
       ]
     },
@@ -155,13 +155,13 @@
     {
       "type": "ending",
       "text": [
-        "Gilberto deixou-se molhar e também cresceu. Mas Alberto fugia de cada gota.",
+        "O Gilberto deixou-se molhar e também cresceu. Mas o Alberto fugia de cada gota.",
         "— Eu não gosto de água!",
-        "Joaquim pegou na mangueira e apontou-a ao amigo.",
-        "Chuááá! Alberto voltou ao tamanho normal, encharcado da cabeça às patas.",
+        "O Joaquim pegou na mangueira e apontou-a ao amigo.",
+        "Chuááá! O Alberto voltou ao tamanho normal, encharcado da cabeça às patas.",
         "— Joaquim, molhaste-me todo!",
         "— Preferias ficar pequeno para sempre?",
-        "Alberto pensou um bocadinho e foi para casa secar o pelo. Depois de tanta confusão, todos foram dormir."
+        "O Alberto pensou um bocadinho e foi para casa secar o pelo. Depois de tanta confusão, todos foram dormir."
       ],
       "end": "Fim."
     },
