@@ -9,6 +9,7 @@ import json
 import math
 import tempfile
 import unicodedata
+import zipfile
 from pathlib import Path
 
 from PIL import Image
@@ -26,10 +27,25 @@ from reportlab.lib.utils import ImageReader
 ROOT = Path(__file__).resolve().parents[1]
 BOOKS_DIR = ROOT / "books"
 OUTPUT_DIR = ROOT / "impressao"
+DELIVERY_DIR = ROOT / "entregas"
+DELIVERY_FILENAME = "as-historias-do-cao-joaquim-site-e-pdfs.zip"
 COLLECTION_TITLE = "As Histórias do Cão Joaquim"
 COLLECTION_FILENAME = "as-historias-do-cao-joaquim.pdf"
 COLLECTION_COVER_ART = ROOT / "assets" / "capa-coletanea-original.png"
 CONTENTS_PER_PAGE = 7
+
+SITE_ROOT_FILES = (
+    "index.html",
+    "reader.html",
+    "direitos.html",
+    "LICENSE",
+)
+SITE_DIRECTORIES = ("assets", "books", "v1", "v2")
+DOCUMENT_FILES = (
+    "README.md",
+    "COMO_PUBLICAR_NOVA_HISTORIA.md",
+    "requirements-print.txt",
+)
 
 PAGE_WIDTH, PAGE_HEIGHT = A5
 SHEET_WIDTH, SHEET_HEIGHT = landscape(A4)
@@ -44,6 +60,67 @@ PETROL = colors.HexColor("#315f63")
 
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def add_tree_to_zip(
+    archive: zipfile.ZipFile,
+    source: Path,
+    destination: Path,
+) -> None:
+    if not source.exists():
+        return
+    for path in sorted(item for item in source.rglob("*") if item.is_file()):
+        relative_path = path.relative_to(source)
+        archive.write(path, (destination / relative_path).as_posix())
+
+
+def build_delivery_archive() -> Path:
+    DELIVERY_DIR.mkdir(parents=True, exist_ok=True)
+    output_path = DELIVERY_DIR / DELIVERY_FILENAME
+    temporary_path = output_path.with_suffix(".zip.tmp")
+    temporary_path.unlink(missing_ok=True)
+
+    with zipfile.ZipFile(
+        temporary_path,
+        "w",
+        compression=zipfile.ZIP_DEFLATED,
+        compresslevel=9,
+        allowZip64=True,
+    ) as archive:
+        for filename in SITE_ROOT_FILES:
+            source = ROOT / filename
+            if source.exists():
+                archive.write(source, (Path("site") / filename).as_posix())
+
+        for directory in SITE_DIRECTORIES:
+            add_tree_to_zip(
+                archive,
+                ROOT / directory,
+                Path("site") / directory,
+            )
+
+        for pdf_path in sorted(OUTPUT_DIR.glob("*.pdf")):
+            archive.write(pdf_path, (Path("pdfs") / pdf_path.name).as_posix())
+
+        for filename in DOCUMENT_FILES:
+            source = ROOT / filename
+            if source.exists():
+                archive.write(source, (Path("documentos") / filename).as_posix())
+
+        print_readme = OUTPUT_DIR / "README.md"
+        if print_readme.exists():
+            archive.write(
+                print_readme,
+                (Path("documentos") / "INSTRUCOES_DE_IMPRESSAO.md").as_posix(),
+            )
+        add_tree_to_zip(
+            archive,
+            ROOT / "revisao",
+            Path("documentos") / "revisao",
+        )
+
+    temporary_path.replace(output_path)
+    return output_path
 
 
 def safe_filename(value: str) -> str:
@@ -651,7 +728,14 @@ def main() -> None:
     parser.add_argument("--book", help="Gerar apenas o livro com este id")
     parser.add_argument("--collection-only", action="store_true",
                         help="Gerar apenas a coletânea completa")
+    parser.add_argument("--package-only", action="store_true",
+                        help="Criar apenas o ZIP com o site, PDFs e documentos atuais")
     args = parser.parse_args()
+
+    if args.package_only:
+        output = build_delivery_archive()
+        print(output.relative_to(ROOT))
+        return
 
     catalog = load_json(BOOKS_DIR / "books.json")
     if not args.collection_only:
@@ -664,6 +748,9 @@ def main() -> None:
 
     collection_output = build_collection()
     print(collection_output.relative_to(ROOT))
+
+    delivery_output = build_delivery_archive()
+    print(delivery_output.relative_to(ROOT))
 
 
 if __name__ == "__main__":

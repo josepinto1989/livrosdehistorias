@@ -72,3 +72,15 @@ python tools/gerar_livros_impressao.py --collection-only
 ```
 
 O gerador lê o catálogo e cada `book.json`, por isso as versões impressas mantêm automaticamente a mesma ordem, texto e imagens do site.
+
+## Pacote completo para arquivo
+
+Sempre que o gerador termina, cria também:
+
+`entregas/as-historias-do-cao-joaquim-site-e-pdfs.zip`
+
+O ZIP reúne a cópia completa do site, todos os PDFs da pasta `impressao` e os documentos de revisão e instruções. Para o recriar sem voltar a gerar os PDFs:
+
+```powershell
+python tools/gerar_livros_impressao.py --package-only
+```
