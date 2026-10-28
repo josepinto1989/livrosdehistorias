@@ -144,6 +144,14 @@ python tools/gerar_livros_impressao.py --package-only
 
 O ZIP não é enviado para o GitHub porque é muito grande. Fica guardado localmente na pasta `entregas`, pronto para copiar ou arquivar.
 
+O mesmo processo cria ainda `entregas/as-historias-do-cao-joaquim-pacote-grafica-a4.zip`, preparado para impressão A4. Inclui páginas completas a 300 dpi, ilustrações separadas, textos em imagem, um Word organizado por página, capas, contracapas e várias larguras de lombada.
+
+Para recriar apenas o pacote A4, executa:
+
+```powershell
+python tools/gerar_pacote_grafica_a4.py
+```
+
 As instruções de impressão estão em `impressao/README.md`.
 
 ## 8. Publicar no GitHub
@@ -177,4 +185,5 @@ https://josepinto1989.github.io/livrosdehistorias/
 - [ ] O PDF de impressão foi gerado e revisto.
 - [ ] A nova história aparece no índice da coletânea `As Histórias do Cão Joaquim`.
 - [ ] O ZIP em `entregas` contém o site, todos os PDFs e os documentos atuais.
+- [ ] O pacote de gráfica A4 foi gerado e a lombada será ajustada ao modelo do fornecedor.
 - [ ] As alterações foram enviadas para a branch `main`.

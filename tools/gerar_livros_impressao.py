@@ -735,6 +735,11 @@ def main() -> None:
     if args.package_only:
         output = build_delivery_archive()
         print(output.relative_to(ROOT))
+
+        from gerar_pacote_grafica_a4 import build_print_package
+
+        print_package_output = build_print_package()
+        print(print_package_output.relative_to(ROOT))
         return
 
     catalog = load_json(BOOKS_DIR / "books.json")
@@ -751,6 +756,11 @@ def main() -> None:
 
     delivery_output = build_delivery_archive()
     print(delivery_output.relative_to(ROOT))
+
+    from gerar_pacote_grafica_a4 import build_print_package
+
+    print_package_output = build_print_package()
+    print(print_package_output.relative_to(ROOT))
 
 
 if __name__ == "__main__":

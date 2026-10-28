@@ -84,3 +84,15 @@ O ZIP reúne a cópia completa do site, todos os PDFs da pasta `impressao` e os 
 ```powershell
 python tools/gerar_livros_impressao.py --package-only
 ```
+
+## Pacote para gráfica em A4
+
+O gerador cria também `entregas/as-historias-do-cao-joaquim-pacote-grafica-a4.zip`, com páginas e ilustrações a 300 dpi, textos em imagem, Word, capa dura, contracapa e opções de lombada.
+
+Para o recriar isoladamente:
+
+```powershell
+python tools/gerar_pacote_grafica_a4.py
+```
+
+A largura final da lombada deve ser confirmada com a gráfica, porque depende do papel e da encadernação.
